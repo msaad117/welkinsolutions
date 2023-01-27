@@ -32,6 +32,12 @@ jobs:
         rm -rf node_modules
         npm install --force
         CI=false npm run build
+    - name: Archive Production Artifact
+      uses: actions/upload-artifact@main
+      with:
+        name: build
+        path: build    
+        
         
   deploy:
     name: Deploy
@@ -41,13 +47,12 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@main
       - name: Download Artifact
-        uses: actions/download-artifact@master
+        uses: actions/download-artifact@main
         with:
-          needs: Download Artifact
           name: build
           path: build
       - name: Depoy to Firebase
-        uses: w9jds/firebase-action@master
+        uses: w9jds/firebase-action@main
         with:
           args: deploy --only hosting
         env:

@@ -1,0 +1,59 @@
+.MainContainer {
+    background-color: #164057;
+    height: 300px;
+    padding-bottom: 10px;
+}
+
+.LogoContainer {
+    text-align: center;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center
+}
+
+.Img {
+    border-radius: 20%;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.AddressContainer {
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content:space-around
+}
+
+.AddressContainer h2 {
+    color: white;
+    text-align: start;
+}
+.AddressContainer a {
+    color: white;
+    text-decoration: none;
+    
+}
+.InnerAddressContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: left
+
+}
+
+@media screen and (max-width: 800px) {
+    .AddressContainer h2 {
+        color: white;
+        text-align: center;
+    }
+    .AddressContainer {
+        text-align: center;
+        display: flex;
+        color: white;
+        flex-direction: column;
+        justify-content:space-around
+    }
+    .MainContainer {
+        background-color: #164057;
+        height: auto;
+    }
+}

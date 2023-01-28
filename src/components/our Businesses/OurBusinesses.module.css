@@ -1,0 +1,95 @@
+.MainContainer {
+    /* padding-bottom: 40px;
+    padding-top: 10px; */
+    text-align: center;
+  color: #164057;
+}
+.Cards{
+    margin: 0 auto;
+  display: grid;
+  /* background-color: #164057; */
+  width: 90%;
+  gap: 0.2em;
+  
+}
+
+.centered {
+    color: #000;
+    background-color: aqua;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .imageDiv{
+    position:relative;
+    width:90%
+  }
+@media screen and (max-width: 800px) {
+  
+    .AddressContainer {
+        text-align: center;
+        display: flex;
+        color: white;
+        flex-direction: column;
+        justify-content:space-around
+    }
+    .Cards {
+        /* background-color: #164057; */
+        height: auto;
+        grid-template-columns: repeat(1, 1fr)
+    }
+    .imageDiv{
+        margin-bottom: 10px;
+        width: 100%;
+      }
+}
+
+@media (min-width: 800px) {
+    .Cards { grid-template-columns: repeat(3, 1fr);
+    
+    }
+    .MainContainer h2 {
+        color: #164057;
+        text-align: center;
+    }
+    
+  }
+
+  .textImage {
+    width:inherit;
+    background-color:#164057;
+    position:absolute;
+    top:30%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    opacity: 0.7;
+    color: white;
+    font-weight: 900;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Poppines;
+  }
+
+  @media screen and (max-width: 1100px) {
+  
+    .AddressContainer {
+        text-align: center;
+        display: flex;
+        color: white;
+        flex-direction: column;
+        justify-content:space-around
+    }
+    .Cards {
+        /* background-color: #164057; */
+        height: auto;
+        grid-template-columns: repeat(1, 1fr)
+    }
+    .imageDiv{
+        margin-bottom: 10px;
+        width: 100%;
+      }
+}

@@ -1,6 +1,7 @@
 .MainContainer {
     /* padding-bottom: 40px;
     padding-top: 10px; */
+    font-size: 22px;
     text-align: center;
   color: #164057;
 }
@@ -15,7 +16,6 @@
 
 .centered {
     color: #000;
-    background-color: aqua;
     position: absolute;
     top: 50%;
     left: 50%;

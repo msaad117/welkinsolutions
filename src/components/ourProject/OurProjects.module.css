@@ -1,0 +1,149 @@
+.MainContainer {
+    /* padding-bottom: 40px;
+    padding-top: 10px; */
+    text-align: center;
+  color: #164057;
+}
+.Cards{
+    margin: 0 auto;
+  display: grid;
+  /* background-color: #164057; */
+  width: 90%;
+  gap: 0.2em;
+  
+}
+
+.centered {
+    color: #000;
+    background-color: aqua;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+  .overlay {
+    width:100%;
+    background-color:#164057;
+    top:30%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    /* top: 15%;
+    bottom: 0;
+    left: 17%;
+    right: 0;
+    
+    /* width: 65%; */
+    opacity: 0;
+    height: 20%;
+    transition: .5s ease;
+  }
+  .imageDiv:hover .overlay {
+    opacity: 1;
+  }
+
+  .imageDiv{
+    position:relative;
+    margin-bottom: 20px;
+    width: 91%;
+  }
+  .cardTextDiv{
+    text-align:  center;
+    color: black;
+    font-size: 25px;
+    color: white;
+    font-weight: 900;
+    font-family: Poppines;
+    padding-top: 4%;
+
+  }
+  .Cards {
+    /* background-color: #164057; */
+    height: auto;
+    grid-template-columns: repeat(3, 1fr)
+}
+@media screen and (max-width: 800px) {
+    .Cards {
+        width: 100%;
+        padding-left: 4%;
+        /* background-color: #164057; */
+        height: auto;
+        grid-template-columns: repeat(4, 1fr)
+    }
+    .imageDiv{
+        position:relative;
+        margin-bottom: 20px;
+        width: 100%;
+        background-color: #164057;
+      }
+      .cardTextDiv{
+        text-align:  center;
+        font-size: 25px;
+        color: white;
+        font-weight: 900;
+        font-family: Poppines;
+        /* padding-top: 4%; */
+    
+      }
+      .overlay {
+        width:100%;
+        background-color:#164057;
+    }
+    .overlay {
+        width:100%;
+        background-color:#481657;
+        top:30%;
+        left: 50%;
+        right: 50%;}
+}
+
+
+
+  .textImage {
+    width:inherit;
+    background-color:#164057;
+    position:absolute;
+    top:30%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    opacity: 0.7;
+    color: white;
+    font-weight: 900;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Poppines;
+  }
+
+  @media screen and (max-width: 1100px) {
+    .Cards {
+        /* background-color: #164057; */
+        padding-left: 4%;
+        width: 100%;
+        height: auto;
+        grid-template-columns: repeat(1, 1fr)
+    }
+    .imageDiv{
+        position:relative;
+        margin-bottom: 20px;
+        width: 91%;
+      }
+      .cardTextDiv{
+        text-align:  center;
+        font-size: 25px;
+        color: white;
+        font-weight: 900;
+        font-family: Poppines;
+        padding-top: 1%;
+    
+      }
+      .overlay {
+        width:100%;
+        background-color:#164057;
+    }
+}
+

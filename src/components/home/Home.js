@@ -15,7 +15,7 @@ export default function Home() {
         <Helmet>
         <title>HVAC Company in Pakistan</title>
         <meta name="description" content="We as HVAC company & Clean Room Solutions company is providing HVAC & cleanroom solutions on turnkey basis in Pakistan. We have a team of experienced HVAC Engineers & cleanroom experts." />
-        <meta name="keywords" content="HVAC company in Pakistan, Cleanroom solutions company in Pakistan, HVAC Solutions, clean room, Industrial ventilation Fans, Air Handling Units in companies in Pakistan, Chillers in Pakistan, Hygiene AHUs" />
+        <meta name="keywords" content="HVAC company in Pakistan, Cleanroom solutions company in Pakistan, HVAC Solutions, clean room, Industrial ventilation Fans, Air Handling Units companies in Pakistan, Chillers in Pakistan, Hygiene AHUs" />
 
         </Helmet>
         <Slider/>

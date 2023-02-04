@@ -1,7 +1,7 @@
 import * as React from "react";
 
 
-function About() {
+function Services() {
 return(
     
     <div style={{"textAlign":"center"}}>
@@ -11,4 +11,4 @@ return(
 )
 }
 
-export default About
+export default Services

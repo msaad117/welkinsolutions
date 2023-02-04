@@ -44,13 +44,13 @@ function Navbar() {
                     <a style={{ textDecoration: 'none', color: "white" }} href={"/about"}>About</a>
                 </li>
                 <li style={{paddingBottom:"12px"}}>
-                    <a style={{ textDecoration: 'none', color: "white" }} href={"/about"}>Products</a>
+                    <a style={{ textDecoration: 'none', color: "white" }} href={"/products"}>Products</a>
                 </li>
                 <li style={{paddingBottom:"12px"}}>
-                    <a style={{ textDecoration: 'none', color: "white" }} href={"/about"}>Services</a>
+                    <a style={{ textDecoration: 'none', color: "white" }} href={"/services"}>Services</a>
                 </li>
                 <li style={{paddingBottom:"12px"}}>
-                    <a style={{ textDecoration: 'none', color: "white" }} href={"/about"}>Contact</a>
+                    <a style={{ textDecoration: 'none', color: "white" }} href={"/contact"}>Contact</a>
                 </li>
         </div>
       )}
@@ -62,13 +62,13 @@ function Navbar() {
                     <Link style={{ textDecoration: 'none', color: "#164057" }} to={"/about"}>About</Link>
                 </li>
                 <li>
-                    <Link style={{ textDecoration: 'none', color: "#164057" }} to={"/about"}>Products</Link>
+                    <Link style={{ textDecoration: 'none', color: "#164057" }} to={"/products"}>Products</Link>
                 </li>
                 <li>
-                    <Link style={{ textDecoration: 'none', color: "#164057" }} to={"/about"}>Services</Link>
+                    <Link style={{ textDecoration: 'none', color: "#164057" }} to={"/services"}>Services</Link>
                 </li>
                 <li>
-                    <Link style={{ textDecoration: 'none', color: "#164057" }} to={"/about"}>Contact</Link>
+                    <Link style={{ textDecoration: 'none', color: "#164057" }} to={"/contact"}>Contact</Link>
                 </li>
             </div>
         </div>

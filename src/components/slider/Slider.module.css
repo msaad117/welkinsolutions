@@ -8,7 +8,9 @@
     height:500px;
     position: relative; 
     display: block;
-    
+    /* object-fit: cover; */
+
+    /* -o-object-fit:none */
     /* overflow: hidden; */
 
 }

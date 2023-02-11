@@ -21,6 +21,7 @@ margin-bottom: 50px;
     text-decoration: none;
     display: inline-block;
     font-size: 28px;
+    display: flex;
   }
 
   .button:hover {

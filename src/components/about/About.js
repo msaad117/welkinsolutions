@@ -1,6 +1,7 @@
 import * as React from "react";
 import styles from './About.module.css';
 import pdf1 from "../../assets/Systemair Portfolio.pdf"
+import { AiOutlineArrowRight } from "react-icons/ai";
 import pdf2 from "../../assets/Welkin Solutions (Pvt.) Ltd. - Corporate Profile.pdf"
 function About() {
     function onClickFirst() {
@@ -32,13 +33,20 @@ return(
       </div>
     </div>
     <div className={styles.buttonDisplay} >
-        <div className={styles.button} onClick={onClickFirst}>
+        <div  onClick={onClickFirst}>
+        <button className={styles.button}>
          Welkin Profile
+         <span style={{"paddingTop":"2px"}}><AiOutlineArrowRight/></span>
+         </button>
         </div >
-        <div className={styles.button} onClick={onClickSecond}>
+        <div  onClick={onClickSecond}>
+            <button className={styles.button}>
         Systemair Profile
+        <span style={{"paddingTop":"2px"}}><AiOutlineArrowRight/></span>
+        </button>
         </div>
     </div>
+    
     </div>
     
 )

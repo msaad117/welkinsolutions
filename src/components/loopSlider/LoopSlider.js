@@ -1,6 +1,7 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import Marquee from "react-fast-marquee";
 // import Profile1 from "../../assets/Clients/logo1.png"
 import Profile2 from "../../assets/Clients/test2.png"
 import Profile3 from "../../assets/Clients/3-highnoon-laboratories-limited.jpg"
@@ -47,7 +48,7 @@ export default function LoopSlider() {
     return (
       <div style={{"width":"90%","margin":"auto","textAlign":"center"}}>
         <h2 style={styles.h2}>Our Clients</h2>
-      <Carousel
+      <Marquee
       swipeable={false}
       draggable={false}
       showDots={false}
@@ -65,29 +66,29 @@ export default function LoopSlider() {
       // itemClass="carousel-item-padding-90-px"
     >
       {/* <div ><img src={Profile1}></img></div> */}
-      <div ><img src={Profile2}></img></div>
-      <div ><img src={Profile3}></img></div>
-      <div ><img src={Profile4}></img></div>
-      <div ><img src={Profile5}></img></div> 
-      <div ><img src={Profile6}></img></div> 
-      <div ><img src={Profile7}></img></div>
+      <div className={styles.imgdiv}><img src={Profile2}></img></div>
+      <div className={styles.imgdiv}><img src={Profile3}></img></div>
+      <div className={styles.imgdiv}><img src={Profile4}></img></div>
+      <div className={styles.imgdiv}><img src={Profile5}></img></div> 
+      <div className={styles.imgdiv}><img src={Profile6}></img></div> 
+      <div className={styles.imgdiv}><img src={Profile7}></img></div>
       {/* <div ><img src={Profile8}></img></div> */}
-      <div ><img src={Profile9}></img></div>
-      <div ><img src={Profile10}></img></div>
-      <div ><img src={Profile11}></img></div>
+      <div className={styles.imgdiv}><img src={Profile9}></img></div>
+      <div className={styles.imgdiv}><img src={Profile10}></img></div>
+      <div className={styles.imgdiv}><img src={Profile11}></img></div>
       {/* <div ><img src={Profile12}></img></div> */}
       {/* <div ><img src={Profile13}></img></div> */}
       {/* <div ><img src={Profile14}></img></div> */}
       {/* <div ><img src={Profile15}></img></div> */}
       {/* <div ><img src={Profile16}></img></div> */}
       {/* <div ><img src={Profile17}></img></div> */}
-      <div ><img src={Profile18}></img></div>
+      <div className={styles.imgdiv}><img src={Profile18}></img></div>
       {/* <div ><img src={Profile19}></img></div> */}
       {/* <div ><img src={Profile20}></img></div> */}
       {/* <div ><img src={Profile21}></img></div>
       <div ><img src={Profile22}></img></div>
       <div ><img src={Profile23}></img></div> */}
-      </Carousel>
+      </Marquee>
       </div>
       );
 }

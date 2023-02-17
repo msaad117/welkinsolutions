@@ -1,6 +1,4 @@
 import React from "react";
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
 import Marquee from "react-fast-marquee";
 // import Profile1 from "../../assets/Clients/logo1.png"
 import Profile2 from "../../assets/Clients/test2.png"

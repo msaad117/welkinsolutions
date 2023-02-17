@@ -14,7 +14,81 @@
     height: 70px;
     overflow:hidden;
   }
+  .Servicetag{
+     color: "#164057";
+     text-decoration: none;
+    
+  }
+  .InnerServicetag{
+    color: "#164057";
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+   
+ }
+ .InnerServicetag:visited{
+  color: "#164057";
   
+ 
+}
+.InnerServiceTagoption2{
+  color: "#164057";
+  text-decoration: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.InnerServiceTagoption2:visited{
+  color: "#164057";
+  
+ 
+}
+ 
+
+  .maindropdownMenu{
+    border: 1px solid #d4c9c933;
+    padding-top: 35px;
+    /* padding-bottom: 10px; */
+    display: none;
+    flex-direction: column;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 150px;
+  text-align: left;
+  /* box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2); */
+  z-index: 999;
+   
+  }
+
+  .subdropdownMenu{
+    border: 1px solid #d4c9c933;
+    padding-top: 0px;
+    /* padding-bottom: 10px; */
+    display: none;
+    flex-direction: column;
+  position: absolute;
+  background-color: white;
+  min-width: 250px;
+  text-align: left;
+  left: 100%;
+  margin-top: -25px;
+  /* box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2); */
+  z-index: 998;
+   
+  }
+  .InnerServiceTagoption2:hover .subdropdownMenu {
+    display: flex;
+    color: white;
+    }
+  
+  .maindropdownMenu li{
+    border: 1px solid #d4c9c933;
+    background-color: #164057;
+    padding-left: 5px;
+  }
+  .Servicetag:hover .maindropdownMenu {
+    display: flex;
+    color: white;
+    }
  .MainContainer{
   
   width: 100%;
@@ -121,7 +195,7 @@
     left: 0px;
     position:fixed;
     width: 100%;
-    height: 190px;
+    height: auto;
     /* margin-right: 20px; */
     padding-left: 20px;
     padding-top: 15px;
@@ -133,4 +207,50 @@ font-size: 17px;
     font-weight: 700;
 
    } 
+}
+
+.mobileServicetag{
+  padding-bottom: 12px;
+  
+}
+.mobilemaindropdownMenu{
+  margin-top: 5px;
+  display: flex;
+  color: #164057;
+  background-color: white;
+    /* padding-bottom: 10px; */
+    /* display: none; */
+    flex-direction: column;
+  position:relative;
+  text-align: left;
+ width: 300px;
+  /* box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2); */
+  z-index: 999;
+  border: 1px solid #d4c9c933;
+}
+
+.mobilemaindropdownInnerMenu{
+  margin-top: 5px;
+  display: flex;
+  color:white ;
+  padding-left: -10px;
+  background-color: #164057;
+    /* padding-bottom: 10px; */
+    /* display: none; */
+   
+    flex-direction: column;
+  position:relative;
+  text-align: left;
+ width: 297px;
+  /* box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2); */
+  z-index: 999;
+  border: 1px solid #d4c9c933;
+}
+.InnerServicetagmobile{
+  /* padding-left: -4px; */
+  color: "#164057";
+  text-decoration: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid #d4c9c933;
 }

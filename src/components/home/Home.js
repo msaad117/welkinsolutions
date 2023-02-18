@@ -11,7 +11,7 @@ import { Helmet } from "react-helmet";
 
 export default function Home() {
     return (
-      <div >
+      <div  style={{overflow:"hidden"}}>
         <Helmet>
         <title>HVAC Company in Pakistan</title>
         <meta name="description" content="We as HVAC company & Clean Room Solutions company is providing HVAC & cleanroom solutions on turnkey basis in Pakistan. We have a team of experienced HVAC Engineers & cleanroom experts." />

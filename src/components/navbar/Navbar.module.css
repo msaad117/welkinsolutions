@@ -1,5 +1,4 @@
 .navbar {
-  position:fixed;
     display: flex;
     align-items: center;
     justify-content: space-around; 
@@ -13,7 +12,8 @@
     text-transform: uppercase;
     color:  #164057;
     height: 70px;
-    overflow:hidden;
+    /* background-color: green; */
+    /* overflow:hidden; */
   }
   .Servicetag{
      color: "#164057";

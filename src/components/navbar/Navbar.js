@@ -99,7 +99,7 @@ function Navbar() {
                             <li className={styles.InnerServicetagmobile}> <Link to={"/services"}>HVAC
                             </Link>
                             </li>
-                            <li className={styles.InnerServicetagmobile}> <Link to={"/services"}>Clean Room Solutions </Link></li>
+                            <li className={styles.InnerServicetagmobile}>  <a  href={"/services"}>Clean Room Solutions </a></li>
                             <li className={styles.InnerServicetagmobile}> <Link to={"/services"}>BMS </Link></li>
                         </div>
                     </li>}
@@ -138,7 +138,7 @@ function Navbar() {
 
 
 
-                            <li className={styles.InnerServicetagmobile}> <Link to={"/services"}>Clean Room Solutions </Link></li>
+                            <li className={styles.InnerServicetagmobile}> <a href={"/products/cleanroomsolutions"}>Clean Room Solutions </a></li>
                             <li className={styles.InnerServicetagmobile}> <Link to={"/services"}>BMS </Link></li>
                         </div>
                     </li>}
@@ -152,6 +152,7 @@ function Navbar() {
                 </div>
             )}
             <div className={styles.navbar}>
+                
                 <li>
                     <Link style={{ textDecoration: 'none', listStyle: "none", color: "#164057" }} to={"/"}> Home </Link>
                 </li>
@@ -185,7 +186,7 @@ function Navbar() {
                                 </div>
                             </Link>
                             </li>
-                            <li> <Link className={styles.InnerServicetag} to={"/services"}>Clean Room  </Link></li>
+                            <li> <Link className={styles.InnerServicetag} to={"/products/cleanroomsolutions"}>Clean Room  </Link></li>
                             <li> <Link className={styles.InnerServicetag} to={"/services"}>BMS </Link></li>
                         </div>
                     </Link>

@@ -18,16 +18,16 @@ return(
       <h2 style={{textAlign:"center","paddingTop":"6px","color":"white"}}>Vision</h2>
      </div>
      <div className={styles.border}>
-      <span style={{paddingTop:"45px"}}>To become the Leader in Products and Services of HVAC & Cleanroom Industry, through innovation and service excellence, for a healthier and safer future.
+      <span className={styles.textDiv}>To become the Leader in Products and Services of HVAC & Cleanroom Industry, through innovation and service excellence, for a healthier and safer future.
       </span>
       </div>
     </div>
-    <div style={{"textAlign":"center","width":"94%","height":"180px","marginLeft":"2%","marginRight":"2%","marginTop":"30px","marginBottom":"10px"}}>
+    <div style={{"textAlign":"center","width":"94%","height":"220px","marginLeft":"2%","marginRight":"2%","marginTop":"30px","marginBottom":"10px"}}>
      <div style={{backgroundColor:"#164057","height":"50px"}}>
       <h2 style={{textAlign:"center","paddingTop":"6px","color":"white"}}>MISSION</h2>
      </div>
-     <div className={styles.border}>
-      <span style={{paddingTop:"45px"}}>
+     <div className={styles.border1}>
+      <span className={styles.textDiv}>
       We believe in doing well by doing good and hold ourselves accountable to make the world a better place through the solutions we provide, our engagement in society, the way we do business, and our commitment to protect people and the environment. We win when our customers win.
       </span>
       </div>

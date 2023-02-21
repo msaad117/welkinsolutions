@@ -10,12 +10,17 @@ import image6 from "../../../assets/Cleanroom/6-Cleanroom Accessaries.png"
 import ReactReadMoreReadLess from "react-read-more-read-less";
 
 function CleanRooms() {
-    let text="Read More + React is a simple npm component for react that intelligently truncates text at the appropriate point given a min, an ideal, and max text length. The idea is to cut off at the best point, and not just a specific character, cutting words short "
+    let text1="Welkin provides all types of cleanroom panels, like PU panels, Rockwool Panels etc., tailored to the customer requirement either machine made panels or handmade panels."
+    let text2="Cleanroom windows are divided into cleanroom double-layer windows, fire-proof windows and dimming windows."
+    let text3="Cleanroom ceiling is composed of modular cleanroom panels and ceiling system. Cleanroom panel sheet is very resistant to bending and has very strong characteristics that helps to walk on ceiling"
+    let text4="Welkin provides cleanroom doors widely used in pharmaceutical industry, hospitals food industry, laboratories etc."
+    let text5="Welkin provides cleanroom equipment like pass boxes, air shower, laminar flow cabinets, SS cabinets, Door closers, Door lock system etc."
+    let text6="Welkin provides all kinds of cleanroom accessories like aluminum profiles, coving, anti-static epoxy paint flooring, anti-static vinyl sheet flooring etc ."
     
     return(
     
     <div>
-    <div style={{"textAlign":"center","width":"94%","height":"250px","marginLeft":"2%","marginRight":"2%","marginTop":"30px","marginBottom":"10px"}}>
+    <div style={{"textAlign":"center","width":"94%","height":"250px","marginLeft":"2%","marginRight":"2%","marginTop":"30px","marginBottom":"20px"}}>
      <div style={{backgroundColor:"#164057","height":"50px"}}>
       <h2 style={{textAlign:"center","paddingTop":"6px","color":"white"}}>Clean Room Solutions</h2>
      </div>
@@ -40,7 +45,7 @@ Welkin Solutions as cleanroom company specializing in the cleanroom design, supp
       
       <p className={styles.textImageinner}>
       <p style={{fontSize:"24px"}}>
-      Central Air-Conditioning 
+      Cleanroom Wall Panels 
       </p>
       {/* <ReadMoreReact text={text}
                 min={40}
@@ -54,7 +59,7 @@ Welkin Solutions as cleanroom company specializing in the cleanroom design, supp
                 readMoreStyle={{fontWeight:"2500",color:"black"}}
                 readLessStyle={{fontWeight:"2500",color:"black"}}
             >
-                {text}
+                {text1}
             </ReactReadMoreReadLess>
         
        </p>    
@@ -69,7 +74,7 @@ Welkin Solutions as cleanroom company specializing in the cleanroom design, supp
       
       <p className={styles.textImageinner}>
       <p style={{fontSize:"24px"}}>
-      Central Air-Conditioning 
+      Cleanroom Windows
       </p>
       {/* <ReadMoreReact text={text}
                 min={40}
@@ -83,7 +88,7 @@ Welkin Solutions as cleanroom company specializing in the cleanroom design, supp
                 readMoreStyle={{fontWeight:"2500",color:"black"}}
                 readLessStyle={{fontWeight:"2500",color:"black"}}
             >
-                {text}
+                {text2}
             </ReactReadMoreReadLess>
         
        </p>    
@@ -98,7 +103,7 @@ Welkin Solutions as cleanroom company specializing in the cleanroom design, supp
       
       <p className={styles.textImageinner}>
       <p style={{fontSize:"24px"}}>
-      Central Air-Conditioning 
+      Cleanroom Ceiling 
       </p>
       {/* <ReadMoreReact text={text}
                 min={40}
@@ -112,7 +117,7 @@ Welkin Solutions as cleanroom company specializing in the cleanroom design, supp
                 readMoreStyle={{fontWeight:"2500",color:"black"}}
                 readLessStyle={{fontWeight:"2500",color:"black"}}
             >
-                {text}
+                {text3}
             </ReactReadMoreReadLess>
         
        </p>    
@@ -127,7 +132,7 @@ Welkin Solutions as cleanroom company specializing in the cleanroom design, supp
       
       <p className={styles.textImageinner}>
       <p style={{fontSize:"24px"}}>
-      Central Air-Conditioning 
+      Cleanroom Doors 
       </p>
       {/* <ReadMoreReact text={text}
                 min={40}
@@ -141,7 +146,7 @@ Welkin Solutions as cleanroom company specializing in the cleanroom design, supp
                 readMoreStyle={{fontWeight:"2500",color:"black"}}
                 readLessStyle={{fontWeight:"2500",color:"black"}}
             >
-                {text}
+                {text4}
             </ReactReadMoreReadLess>
         
        </p>    
@@ -156,7 +161,7 @@ Welkin Solutions as cleanroom company specializing in the cleanroom design, supp
       
       <p className={styles.textImageinner}>
       <p style={{fontSize:"24px"}}>
-      Central Air-Conditioning 
+      Cleanroom Equipment
       </p>
       {/* <ReadMoreReact text={text}
                 min={40}
@@ -170,7 +175,7 @@ Welkin Solutions as cleanroom company specializing in the cleanroom design, supp
                 readMoreStyle={{fontWeight:"2500",color:"black"}}
                 readLessStyle={{fontWeight:"2500",color:"black"}}
             >
-                {text}
+                {text5}
             </ReactReadMoreReadLess>
         
        </p>    
@@ -185,7 +190,7 @@ Welkin Solutions as cleanroom company specializing in the cleanroom design, supp
       
       <p className={styles.textImageinner}>
       <p style={{fontSize:"24px"}}>
-      Central Air-Conditioning 
+      Cleanroom Accessories 
       </p>
       {/* <ReadMoreReact text={text}
                 min={40}
@@ -199,7 +204,7 @@ Welkin Solutions as cleanroom company specializing in the cleanroom design, supp
                 readMoreStyle={{fontWeight:"2500",color:"black"}}
                 readLessStyle={{fontWeight:"2500",color:"black"}}
             >
-                {text}
+                {text6}
             </ReactReadMoreReadLess>
         
        </p>    

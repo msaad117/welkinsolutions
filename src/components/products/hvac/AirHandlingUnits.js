@@ -1,16 +1,16 @@
 import * as React from "react";
-import styles from './CleanRoom.module.css';
+import styles from './AHU.module.css';
 import ImageCard from '../../common/ImageCard';
-import image1 from "../../../assets/Cleanroom/1-Cleanroom Panels.jpeg"
-import image2 from "../../../assets/Cleanroom/2-Cleanroom Windows.jpg"
-import image3 from "../../../assets/Cleanroom/3-Cleanroom Ceiling Systems.jpg"
-import image4 from "../../../assets/Cleanroom/4-Cleanroom Doors.jpg"
-import image5 from "../../../assets/Cleanroom/5-Cleanroom Equipment.jpg"
-import image6 from "../../../assets/Cleanroom/6-Cleanroom Accessaries.png"
+import image1 from "../../../assets/AHUs/1- Modular Air handling Units.jpg"
+import image2 from "../../../assets/AHUs/2-Hygiene Air Handling Units.jpeg"
+import image3 from "../../../assets/AHUs/3-Compact Air Handling Units.jpg"
+import image4 from "../../../assets/AHUs/4-Ceiling Suspended Air handling Units.jpg"
+import image5 from "../../../assets/AHUs/5-Horizontal AHUs.jpg"
+import image6 from "../../../assets/AHUs/6-Vertical AHUs.jpg"
 import ReactReadMoreReadLess from "react-read-more-read-less";
 import { Helmet } from "react-helmet";
 
-function CleanRooms() {
+function AirHandlingUnits() {
   let text1 = "Welkin provides all types of cleanroom panels, like PU panels, Rockwool Panels etc., tailored to the customer requirement either machine made panels or handmade panels."
   let text2 = "Cleanroom windows are divided into cleanroom double-layer windows, fire-proof windows and dimming windows."
   let text3 = "Cleanroom ceiling is composed of modular cleanroom panels and ceiling system. Cleanroom panel sheet is very resistant to bending and has very strong characteristics that helps to walk on ceiling"
@@ -21,22 +21,23 @@ function CleanRooms() {
   return (
     <div>
       <Helmet>
-        <title>Cleanroom Solutions company in Pakistan | Welkin Solutions </title>
-        <meta name="description" content="Welkin Solutions is an emerging cleanroom company in Pakistan. We as cleanroom solutions provider company provides solutions on turkey basis from design, supply to execution." />
-        <meta name="keywords" content="Cleanroom solutions, cleanroom solutions in pakistan, cleanroom companies in Pakistan, Lahore, karachi, faisalabad, Islamabad, cleanroom panels in pakistan, cleanroom construction in Pakistan, cleanroom windows" />
+        <title>Air Handling Units in Pakistan – WELKIN Solutions  </title>
+        <meta name="description" content="We as Air Handling Units provider company in Pakistan provides hygiene AHUs, compact AHUs, modular AHUs etc. We are offering EUROVENT certified brand SYSTEMAIR AHUs. Pharma grade ahus," />
+        <meta name="keywords" content="Air Handling Units, AHUs, Air Handling units in Pakistan, AHUs in Pakistan, Hygiene AHUs in Lahore Pakistan, Air Handling Units company in Pakistan, Hygiene Air handling units in Pakistan, Karachi, Lahore, Islamabad, Faisalabad, AHUs company in Pakistan. Modular AHUs," />
 
       </Helmet>
-      <div style={{ "textAlign": "center", "width": "94%", "height": "250px", "marginLeft": "2%", "marginRight": "2%", "marginTop": "30px", "marginBottom": "20px" }}>
+      <div className={styles.mainStyle}>
         <div style={{ backgroundColor: "#164057", "height": "50px" }}>
-          <h2 style={{ textAlign: "center", "paddingTop": "6px", "color": "white" }}>Clean Room Solutions</h2>
+          <h2 style={{ textAlign: "center", "paddingTop": "6px", "color": "white" }}>Air Handling Units</h2>
         </div>
         <div className={styles.border}>
           <div className={styles.borderpadding}>
-            <span >Clean room is a basic project with a wide range of application industries. In many engineering fields, clean space is needed to meet some high processing requirements of ISO standards.
+            <span >The air handling unit (AHU) is the heart of central air conditioning. It collects outside air and room air, removes dust and other particles from the collected air, adjusts the temperature and humidity and then supplies comfortable and hygiene air into the rooms through ducts. We believe that all air handling units should be hygiene type either in pharma industry or textile because our environment is too polluted that is very bad for our health so we need Hygiene AHUs to clean the air.
             </span>
             <br />
+            <br />
             <span>
-              Welkin Solutions as cleanroom company specializing in the cleanroom design, supply, planning and cleanroom construction in Pakistan. Welkin has a team of professionals with cleanroom and pharma specialists who can understand the customer need more easily in the field of cleanroom.
+            Welkin Solutions is an exclusive distributor of Eurovent certified brand SYSTEMAIR in the territory of Pakistan. Systemair has all kinds of high energy efficient AHUs like modular AHUs, Hygiene AHUs, compact AHUs, DX Air Handling Units, Horizontal AHUs, Vertical AHUs, ceiling suspended AHUs. We as air handling units provider company in Pakistan provides after sales services like assembling, testing & commissioning of AHUs. 
             </span>
           </div>
         </div>
@@ -222,4 +223,4 @@ function CleanRooms() {
   )
 }
 
-export default CleanRooms
+export default AirHandlingUnits

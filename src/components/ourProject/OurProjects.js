@@ -5,7 +5,7 @@ import project3 from "../../assets/Projects/3- MG Apparel.png"
 import project4 from "../../assets/Projects/4- Style Textile.jpeg"
 import project5 from "../../assets/Projects/5- Sami Pharmacueticals.png"
 import project6 from "../../assets/Projects/6- Nabi Qasim Industries.jpeg"
-import ImageCard from '../our Businesses/ImageCard';
+import ImageCard from '../common/ImageCard';
 import styles from './OurProjects.module.css';
 
 export default function OurProjects() {

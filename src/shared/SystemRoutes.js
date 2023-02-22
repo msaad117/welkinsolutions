@@ -7,6 +7,7 @@ import Services from "../components/services/Services";
 import Products from "../components/products/Products";
 import Contact from "../components/contact/Contact";
 import CleanRooms from "../components/products/cleanRoom/CleanRoom";
+import AirHandlingUnits from "../components/products/hvac/AirHandlingUnits";
 
 export const SystemRoutes = () => {
     return (
@@ -16,6 +17,8 @@ export const SystemRoutes = () => {
             <Route path={'/products'} element={<Products/>}/>
             <Route path={'/contact'} element={<Contact/>}/>
             <Route path={'/products/cleanroomsolutions'} element={<CleanRooms/>}/>
+            <Route path={'/products/hvac/air-handling-units'} element={<AirHandlingUnits/>}/>
+    
             <Route path={'/'} element={<Home/>}/>
             
         </Routes>

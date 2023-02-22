@@ -2,7 +2,7 @@ import React from "react";
 import certificate1 from "../../assets/OurBusinesses/1-Central Air-Conditioning.png"
 import certificate2 from "../../assets/OurBusinesses/2-Industrial Ventilation Solutions.png"
 import certificate3 from "../../assets/OurBusinesses/3-Clean Room Solutions.jpg"
-import ImageCard from './ImageCard';
+import ImageCard from '../common/ImageCard';
 import styles from './OurBusinesses.module.css';
 
 export default function OurBusinesses() {

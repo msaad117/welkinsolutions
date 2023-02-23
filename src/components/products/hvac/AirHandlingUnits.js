@@ -52,23 +52,14 @@ function AirHandlingUnits() {
 
             <p className={styles.textImageinner}>
               <p style={{ fontSize: "24px" }}>
-                Cleanroom Wall Panels
+              Modular Air handling Units
               </p>
               {/* <ReadMoreReact text={text}
                 min={40}
                 // ideal={30}
                 max={50}
                 readMoreText=" read more"/> */}
-              <ReactReadMoreReadLess
-                charLimit={50}
-                readMoreText={"Read more ▼"}
-                readLessText={"Read less ▲"}
-                readMoreStyle={{ fontWeight: "2500", color: "black" }}
-                readLessStyle={{ fontWeight: "2500", color: "black" }}
-              >
-                {text1}
-              </ReactReadMoreReadLess>
-
+              
             </p>
           </div>
         </div>
@@ -81,22 +72,13 @@ function AirHandlingUnits() {
 
             <p className={styles.textImageinner}>
               <p style={{ fontSize: "24px" }}>
-                Cleanroom Windows
+              Hygiene Air Handling Units
               </p>
               {/* <ReadMoreReact text={text}
                 min={40}
                 // ideal={30}
                 max={50}
                 readMoreText=" read more"/> */}
-              <ReactReadMoreReadLess
-                charLimit={50}
-                readMoreText={"Read more ▼"}
-                readLessText={"Read less ▲"}
-                readMoreStyle={{ fontWeight: "2500", color: "black" }}
-                readLessStyle={{ fontWeight: "2500", color: "black" }}
-              >
-                {text2}
-              </ReactReadMoreReadLess>
 
             </p>
           </div>
@@ -110,23 +92,13 @@ function AirHandlingUnits() {
 
             <p className={styles.textImageinner}>
               <p style={{ fontSize: "24px" }}>
-                Cleanroom Ceiling
+              Compact Air Handling Units
               </p>
               {/* <ReadMoreReact text={text}
                 min={40}
                 // ideal={30}
                 max={50}
                 readMoreText=" read more"/> */}
-              <ReactReadMoreReadLess
-                charLimit={50}
-                readMoreText={"Read more ▼"}
-                readLessText={"Read less ▲"}
-                readMoreStyle={{ fontWeight: "2500", color: "black" }}
-                readLessStyle={{ fontWeight: "2500", color: "black" }}
-              >
-                {text3}
-              </ReactReadMoreReadLess>
-
             </p>
           </div>
         </div>
@@ -139,23 +111,13 @@ function AirHandlingUnits() {
 
             <p className={styles.textImageinner}>
               <p style={{ fontSize: "24px" }}>
-                Cleanroom Doors
+              Ceiling Suspended AHUs
               </p>
               {/* <ReadMoreReact text={text}
                 min={40}
                 // ideal={30}
                 max={50}
                 readMoreText=" read more"/> */}
-              <ReactReadMoreReadLess
-                charLimit={50}
-                readMoreText={"Read more ▼"}
-                readLessText={"Read less ▲"}
-                readMoreStyle={{ fontWeight: "2500", color: "black" }}
-                readLessStyle={{ fontWeight: "2500", color: "black" }}
-              >
-                {text4}
-              </ReactReadMoreReadLess>
-
             </p>
           </div>
         </div>
@@ -168,23 +130,13 @@ function AirHandlingUnits() {
 
             <p className={styles.textImageinner}>
               <p style={{ fontSize: "24px" }}>
-                Cleanroom Equipment
+              Horizontal AHUs
               </p>
               {/* <ReadMoreReact text={text}
                 min={40}
                 // ideal={30}
                 max={50}
                 readMoreText=" read more"/> */}
-              <ReactReadMoreReadLess
-                charLimit={50}
-                readMoreText={"Read more ▼"}
-                readLessText={"Read less ▲"}
-                readMoreStyle={{ fontWeight: "2500", color: "black" }}
-                readLessStyle={{ fontWeight: "2500", color: "black" }}
-              >
-                {text5}
-              </ReactReadMoreReadLess>
-
             </p>
           </div>
         </div>
@@ -197,23 +149,13 @@ function AirHandlingUnits() {
 
             <p className={styles.textImageinner}>
               <p style={{ fontSize: "24px" }}>
-                Cleanroom Accessories
+              Vertical AHUs
               </p>
               {/* <ReadMoreReact text={text}
                 min={40}
                 // ideal={30}
                 max={50}
                 readMoreText=" read more"/> */}
-              <ReactReadMoreReadLess
-                charLimit={50}
-                readMoreText={"Read more ▼"}
-                readLessText={"Read less ▲"}
-                readMoreStyle={{ fontWeight: "2500", color: "black" }}
-                readLessStyle={{ fontWeight: "2500", color: "black" }}
-              >
-                {text6}
-              </ReactReadMoreReadLess>
-
             </p>
           </div>
         </div>

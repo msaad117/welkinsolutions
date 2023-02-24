@@ -111,12 +111,12 @@ function Navbar() {
                         <a style={{ textDecoration: 'none', color: "white" ,display:"flex"}} >Products  <span style={{"paddingLeft":"16px","paddingTop":"4px"}}>{isProductClicked ? <AiFillCaretUp /> : <AiFillCaretDown />}</span></a>
                         <div className={styles.mobilemaindropdownMenu}>
                             {!isInnerProductClicked ? <li className={styles.InnerServicetagmobile} onClick={(e) => handleChildElementClick(e)}>
-                        <Link style={{ display:"flex"}}>  HVAC <span style={{paddingTop:"2px"}}>{isInnerProductClicked ? <AiFillCaretUp /> : <AiFillCaretDown />}</span></Link>
+                        <Link  to={"/Products/hvacproducts"} style={{ display:"flex"}} >  HVAC <span style={{paddingTop:"2px"}}>{isInnerProductClicked ? <AiFillCaretUp /> : <AiFillCaretDown />}</span></Link>
                           
                     </li> : <li className={styles.InnerServicetagmobile} onClick={(e) => handleChildElementClick(e)}>
-                        <Link>HVAC <span style={{paddingTop:"2px"}}>{isInnerProductClicked ? <AiFillCaretUp /> : <AiFillCaretDown />}</span>
+                        <Link to={"/Products/hvacproducts"}>HVAC <span style={{paddingTop:"2px"}}>{isInnerProductClicked ? <AiFillCaretUp /> : <AiFillCaretDown />}</span>
                         <div className={styles.mobilemaindropdownInnerMenu}>
-                            <li className={styles.InnerServicetagmobile}> <Link  to={"/services"}>Chillers  </Link></li>
+                            <li className={styles.InnerServicetagmobile}> <Link  to={"/products/hvac/chillers"}>Chillers  </Link></li>
                                     <li className={styles.InnerServicetagmobile}> <Link  to={"/products/hvac/air-handling-units"}>Air Handling Units</Link></li>
                                     <li className={styles.InnerServicetagmobile}> <Link  to={"/services"}>Fan Coil Units </Link></li>
                                     <li className={styles.InnerServicetagmobile}> <Link  to={"/services"}>VRF / VRV </Link></li>
@@ -142,6 +142,7 @@ function Navbar() {
                             <li className={styles.InnerServicetagmobile}> <Link to={"/services"}>BMS </Link></li>
                         </div>
                     </li>}
+                    
                     <li style={{ paddingBottom: "12px" }}>
                         <a style={{ textDecoration: 'none', color: "white" }} href={"/about"}>About</a>
                     </li>
@@ -160,7 +161,7 @@ function Navbar() {
 
                     <Link className={styles.Servicetag} to={"/services"}>Services <AiFillCaretDown />
                         <div className={styles.maindropdownMenu}>
-                            <li className={styles.InnerServiceTagoption2}> <Link to={"/services"}>HVAC
+                            <li className={styles.InnerServiceTagoption2}> <Link to={"/Products/hvacproducts"}>HVAC
                             </Link>
                             </li>
                             <li> <Link className={styles.InnerServicetag} to={"/services"}>Clean Room Solutions </Link></li>
@@ -171,11 +172,11 @@ function Navbar() {
                 </li>
                 <li>
 
-                    <Link className={styles.Servicetag} to={"/products"}>Products <AiFillCaretDown />
+                    <Link className={styles.Servicetag} >Products <AiFillCaretDown />
                         <div className={styles.maindropdownMenu}>
-                            <li className={styles.InnerServiceTagoption2}> <Link to={"/services"}>HVAC <AiFillCaretRight />
+                            <li className={styles.InnerServiceTagoption2}> <Link to={"/Products/hvacproducts"}>HVAC <AiFillCaretRight />
                                 <div className={styles.subdropdownMenu}>
-                                    <li> <Link className={styles.InnerServicetag} to={"/services"}>Chillers  </Link></li>
+                                    <li> <Link className={styles.InnerServicetag} to={"/products/hvac/chillers"}>Chillers  </Link></li>
                                     <li> <Link className={styles.InnerServicetag} to={"/products/hvac/air-handling-units"}>Air Handling Units</Link></li>
                                     <li> <Link className={styles.InnerServicetag} to={"/services"}>Fan Coil Units </Link></li>
                                     <li> <Link className={styles.InnerServicetag} to={"/services"}>VRF/VRV </Link></li>

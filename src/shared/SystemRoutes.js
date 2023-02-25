@@ -10,6 +10,7 @@ import CleanRooms from "../components/products/cleanRoom/CleanRoom";
 import AirHandlingUnits from "../components/products/hvac/AirHandlingUnits";
 import HVAC from "../components/products/hvac/HVAC";
 import CHILLERS from "../components/products/hvac/CHILLERS";
+import IndustrialVentilationFans from "../components/products/hvac/IndustrialVentilationFans";
 
 export const SystemRoutes = () => {
     return (
@@ -22,6 +23,7 @@ export const SystemRoutes = () => {
             <Route path={'/products/hvac/air-handling-units'} element={<AirHandlingUnits/>}/>
             <Route path={'/Products/hvacproducts'} element={<HVAC/>}/>
             <Route path={'/products/hvac/chillers'} element={<CHILLERS/>}/>
+            <Route path={'/products/hvac/industrialventilationfans'} element={<IndustrialVentilationFans/>}/>
             
             <Route path={'/'} element={<Home/>}/>
             

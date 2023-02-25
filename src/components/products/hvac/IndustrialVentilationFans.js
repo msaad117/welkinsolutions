@@ -1,40 +1,39 @@
 import * as React from "react";
-import styles from './HVAC.module.css';
+import styles from './CHILLERS.module.css';
 import ImageCard from '../../common/ImageCard';
-import image1 from "../../../assets/HVAC/1-Air Handling Units.jpeg"
-import image2 from "../../../assets/HVAC/2-Chillers.jpg"
-import image3 from "../../../assets/HVAC/3-Fan Coil Units.jpg"
-import image4 from "../../../assets/HVAC/5-Roof Top Packege Units.jpg"
-import image5 from "../../../assets/HVAC/6-Data Center Cooling.jpeg"
-import image6 from "../../../assets/HVAC/7- VRF or VRV System.jpeg"
-import image7 from "../../../assets/HVAC/8- Fan Coil Units.jpeg"
-import image8 from "../../../assets/HVAC/9- Industrial Ventilation Fans.jpeg"
-import image9 from "../../../assets/HVAC/10- Air Distribution Products.jpeg"
-import image10 from "../../../assets/HVAC/11- Fire Safety Products.jpeg"
-import image11 from "../../../assets/HVAC/12- Fabric Duct.jpeg"
+import image1 from "../../../assets/Industrial Ventilation/1-Circular Inline Duct Fans.jpg"
+import image2 from "../../../assets/Industrial Ventilation/2- Rectangular Duct Fans.jpg"
+import image3 from "../../../assets/Industrial Ventilation/3- Axials Fans.jpg"
+import image4 from "../../../assets/Industrial Ventilation/4- Explosion Proof Fans.jpg"
+import image5 from "../../../assets/Industrial Ventilation/5- Smoke Extract Fans.jpg"
+import image6 from "../../../assets/Industrial Ventilation/6- Centrifugal Fans.jpg"
+import image7 from "../../../assets/Industrial Ventilation/7- Roof Fans.jpg"
 import ReactReadMoreReadLess from "react-read-more-read-less";
 import { Helmet } from "react-helmet";
-import { Link } from "react-router-dom";
 
-function HVAC() {
+function IndustrialVentilationFans() {
 
   return (
     <div>
       <Helmet>
-        <title>HVAC Products in Pakistan – Welkin Solutions (Pvt.) Ltd.</title>
-        <meta name="description" content="We as EUROVENT certified brand SYSTEMAIR distributor in territory of Pakistan offers HVAC products like Air Handling Units, Chillers, Fan Coil Units, VRF System, Data Center Cooling, Industrial Ventilation Fans etc." />
-        <meta name="keywords" content="HVAC, HVAC products, HVAC products in Pakistan, HVAC products in Lahore, HVAC products in Karachi, HVAC products in Islamabad, HVAC products in Faisalabad, EUROVENT HVAC products in Pakistan." />
+        <title>Industrial Ventilation Fans in Pakistan – Welkin Solutions (Pvt.) Ltd.</title>
+        <meta name="description" content="We as ventilation solutions provider, provide all kinds industrial ventilation fans in Pakistan. Ventilation Fans include inline duct fans, axial fans, belt driven fans, Jet fans, smoke extract fans, explosion proof fans etc" />
+        <meta name="keywords" content="Industrial Ventilation fans in Pakistan, Ventilation Fans in Pakistan, ducted fans in Pakistan, inline ducted fans in Pakistan, jet fans in Pakistan, explosion proof fans in Pakistan, belt driven fans in Pakistan, karachi, Lahore, Islamabad, Faisalabad, Industrial ventilation Solutions in Pakistan, tube axial fans in Pakistan" />
 
       </Helmet>
       <div className={styles.mainStyle}>
         <div style={{ backgroundColor: "#164057", "height": "50px" }}>
-          <h2 style={{ textAlign: "center", "paddingTop": "6px", "color": "white" }}>HVAC Products</h2>
+          <h2 style={{ textAlign: "center", "paddingTop": "6px", "color": "white" }}>Industrial Ventilation</h2>
         </div>
         <div className={styles.border}>
           <div className={styles.borderpadding}>
-            <span >Welkin Solutions (Pvt.) Ltd. is an official distributor of SYSTEMAIR in Pakistan. SYSTEMAIR offers a wide range of HAVC products like Air Handling Units, Fan Coil Units, Chillers, Data Center Cooling Units, Industrial Ventilation Fans, VRF system, Air Distribution Products, Fire Safety Products. 
+            <span >The SYSTEMAIR company was founded in 1974 with a pioneering idea in developing and introducing the circular in line centrifugal duct fan which has simplified ventilation systems. 
             </span>
-
+            <br />
+            <br />
+            <span>
+            Welkin offers Systemair wide range of AMCA certified industrial ventilation fans in Pakistan. Ventilation Fans includes circular inline duct fans, rectangular inline duct fans, Axial Fans, Roof Fans, Smoke Extract Fans, Jet fans, Box Fans, Centrifugal Fans, Explosion Proof Fans etc.
+            </span>
           </div>
         </div>
       </div>
@@ -44,11 +43,11 @@ function HVAC() {
             imageUrl={image1}
             imageAlt={"cleanroom image"}
           />
-          <div >
-           <Link to="/products/hvac/air-handling-units"> 
+          <div>
+
             <p className={styles.textImageinner}>
               <p style={{ fontSize: "24px" }}>
-              Air Handling Units
+              Circular Inline Duct Fans
               </p>
               {/* <ReadMoreReact text={text}
                 min={40}
@@ -57,8 +56,6 @@ function HVAC() {
                 readMoreText=" read more"/> */}
               
             </p>
-         
-            </Link>
           </div>
         </div>
         <div className={styles.imageDiv}>
@@ -67,10 +64,10 @@ function HVAC() {
             imageAlt={"cleanroom image"}
           />
           <div>
-             <Link to="/products/hvac/chillers">
+
             <p className={styles.textImageinner}>
               <p style={{ fontSize: "24px" }}>
-              Chillers
+              Rectangular Duct Fans
               </p>
               {/* <ReadMoreReact text={text}
                 min={40}
@@ -79,20 +76,18 @@ function HVAC() {
                 readMoreText=" read more"/> */}
 
             </p>
-            </Link>
           </div>
         </div>
         <div className={styles.imageDiv}>
-        <Link to="/products/hvac/industrialventilationfans"> 
           <ImageCard
-            imageUrl={image8}
+            imageUrl={image3}
             imageAlt={"cleanroom image"}
           />
           <div>
 
             <p className={styles.textImageinner}>
               <p style={{ fontSize: "24px" }}>
-              Fan Coil Units
+              Axials Fans
               </p>
               {/* <ReadMoreReact text={text}
                 min={40}
@@ -100,9 +95,7 @@ function HVAC() {
                 max={50}
                 readMoreText=" read more"/> */}
             </p>
-            
           </div>
-          </Link>
         </div>
         <div className={styles.imageDiv}>
           <ImageCard
@@ -113,7 +106,7 @@ function HVAC() {
 
             <p className={styles.textImageinner}>
               <p style={{ fontSize: "24px" }}>
-              Roof Top Packege Units
+              Explosion Proof Fans
               </p>
               {/* <ReadMoreReact text={text}
                 min={40}
@@ -132,7 +125,7 @@ function HVAC() {
 
             <p className={styles.textImageinner}>
               <p style={{ fontSize: "24px" }}>
-              Data Center Cooling
+              Smoke Extract Fans
               </p>
               {/* <ReadMoreReact text={text}
                 min={40}
@@ -151,7 +144,7 @@ function HVAC() {
 
             <p className={styles.textImageinner}>
               <p style={{ fontSize: "24px" }}>
-              VRF or VRV System
+              Centrifugal Fans
               </p>
               {/* <ReadMoreReact text={text}
                 min={40}
@@ -170,74 +163,13 @@ function HVAC() {
 
             <p className={styles.textImageinner}>
               <p style={{ fontSize: "24px" }}>
-              Fan Coil Units
+              Roof Fans
               </p>
               {/* <ReadMoreReact text={text}
                 min={40}
                 // ideal={30}
                 max={50}
                 readMoreText=" read more"/> */}
-              
-            </p>
-          </div>
-        </div>
-        <div className={styles.imageDiv}>
-          <ImageCard
-            imageUrl={image9}
-            imageAlt={"cleanroom image"}
-          />
-          <div>
-
-            <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
-              Air Distribution Products
-              </p>
-              {/* <ReadMoreReact text={text}
-                min={40}
-                // ideal={30}
-                max={50}
-                readMoreText=" read more"/> */}
-              
-            </p>
-          </div>
-        </div>
-        <div className={styles.imageDiv}>
-          <ImageCard
-            imageUrl={image10}
-            imageAlt={"cleanroom image"}
-          />
-          <div>
-
-            <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
-              Fire Safety Products
-              </p>
-              {/* <ReadMoreReact text={text}
-                min={40}
-                // ideal={30}
-                max={50}
-                readMoreText=" read more"/> */}
-              
-            </p>
-          </div>
-        </div>
-        <div className={styles.imageDiv}>
-          <ImageCard
-            imageUrl={image11}
-            imageAlt={"cleanroom image"}
-          />
-          <div>
-
-            <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
-              Fabric Duct
-              </p>
-              {/* <ReadMoreReact text={text}
-                min={40}
-                // ideal={30}
-                max={50}
-                readMoreText=" read more"/> */}
-              
             </p>
           </div>
         </div>
@@ -247,4 +179,4 @@ function HVAC() {
   )
 }
 
-export default HVAC
+export default IndustrialVentilationFans

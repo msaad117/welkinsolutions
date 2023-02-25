@@ -122,7 +122,7 @@ function Navbar() {
                                     <li className={styles.InnerServicetagmobile}> <Link  to={"/services"}>VRF / VRV </Link></li>
                                     <li className={styles.InnerServicetagmobile}> <Link  to={"/services"}>Rooftop Package Units </Link></li>
                                     <li className={styles.InnerServicetagmobile}> <Link  to={"/services"}>Precision Cooling / Data Center Cooling  </Link></li>
-                                    <li className={styles.InnerServicetagmobile}> <Link  to={"/services"}>Industrial Ventilation</Link></li>
+                                    <li className={styles.InnerServicetagmobile}> <Link  to={"/products/hvac/industrialventilationfans"}>Industrial Ventilation</Link></li>
                                     <li className={styles.InnerServicetagmobile}> <Link  to={"/services"}>Fabric Duct </Link></li>
                         
                         </div>
@@ -182,7 +182,7 @@ function Navbar() {
                                     <li> <Link className={styles.InnerServicetag} to={"/services"}>VRF/VRV </Link></li>
                                     <li> <Link className={styles.InnerServicetag} to={"/services"}>Rooftop Package Units </Link></li>
                                     <li> <Link className={styles.InnerServicetag} to={"/services"}>Precision Cooling / Data Center Cooling  </Link></li>
-                                    <li> <Link className={styles.InnerServicetag} to={"/services"}>Industrial Ventilation</Link></li>
+                                    <li> <Link className={styles.InnerServicetag} to={"/products/hvac/industrialventilationfans"}>Industrial Ventilation</Link></li>
                                     <li> <Link className={styles.InnerServicetag} to={"/services"}>Fabric Duct </Link></li>
                                 </div>
                             </Link>

@@ -118,8 +118,8 @@ function Navbar() {
                         <div className={styles.mobilemaindropdownInnerMenu}>
                             <li className={styles.InnerServicetagmobile}> <Link  to={"/products/hvac/chillers"}>Chillers  </Link></li>
                                     <li className={styles.InnerServicetagmobile}> <Link  to={"/products/hvac/air-handling-units"}>Air Handling Units</Link></li>
-                                    <li className={styles.InnerServicetagmobile}> <Link  to={"/services"}>Fan Coil Units </Link></li>
-                                    <li className={styles.InnerServicetagmobile}> <Link  to={"/services"}>VRF / VRV </Link></li>
+                                    <li className={styles.InnerServicetagmobile}> <Link  to={"/products/hvac/fcus"}>Fan Coil Units </Link></li>
+                                    <li className={styles.InnerServicetagmobile}> <Link  to={"/products/hvac/vrfsystem"}>VRF / VRV </Link></li>
                                     <li className={styles.InnerServicetagmobile}> <Link  to={"/services"}>Rooftop Package Units </Link></li>
                                     <li className={styles.InnerServicetagmobile}> <Link  to={"/services"}>Precision Cooling / Data Center Cooling  </Link></li>
                                     <li className={styles.InnerServicetagmobile}> <Link  to={"/products/hvac/industrialventilationfans"}>Industrial Ventilation</Link></li>
@@ -178,8 +178,8 @@ function Navbar() {
                                 <div className={styles.subdropdownMenu}>
                                     <li> <Link className={styles.InnerServicetag} to={"/products/hvac/chillers"}>Chillers  </Link></li>
                                     <li> <Link className={styles.InnerServicetag} to={"/products/hvac/air-handling-units"}>Air Handling Units</Link></li>
-                                    <li> <Link className={styles.InnerServicetag} to={"/services"}>Fan Coil Units </Link></li>
-                                    <li> <Link className={styles.InnerServicetag} to={"/services"}>VRF/VRV </Link></li>
+                                    <li> <Link className={styles.InnerServicetag} to={"/products/hvac/fcus"}>Fan Coil Units </Link></li>
+                                    <li> <Link className={styles.InnerServicetag} to={"/products/hvac/vrfsystem"}>VRF/VRV </Link></li>
                                     <li> <Link className={styles.InnerServicetag} to={"/services"}>Rooftop Package Units </Link></li>
                                     <li> <Link className={styles.InnerServicetag} to={"/services"}>Precision Cooling / Data Center Cooling  </Link></li>
                                     <li> <Link className={styles.InnerServicetag} to={"/products/hvac/industrialventilationfans"}>Industrial Ventilation</Link></li>

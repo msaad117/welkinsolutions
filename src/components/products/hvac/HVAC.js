@@ -83,7 +83,7 @@ function HVAC() {
           </div>
         </div>
         <div className={styles.imageDiv}>
-        <Link to="/products/hvac/industrialventilationfans"> 
+        <Link to="/products/hvac/fcus"> 
           <ImageCard
             imageUrl={image8}
             imageAlt={"cleanroom image"}
@@ -148,7 +148,7 @@ function HVAC() {
             imageAlt={"cleanroom image"}
           />
           <div>
-
+           <Link to="/products/hvac/vrfsystem">
             <p className={styles.textImageinner}>
               <p style={{ fontSize: "24px" }}>
               VRF or VRV System
@@ -159,7 +159,9 @@ function HVAC() {
                 max={50}
                 readMoreText=" read more"/> */}
             </p>
+            </Link>
           </div>
+          
         </div>
         <div className={styles.imageDiv}>
           <ImageCard

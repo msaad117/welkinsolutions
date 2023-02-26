@@ -11,6 +11,8 @@ import AirHandlingUnits from "../components/products/hvac/AirHandlingUnits";
 import HVAC from "../components/products/hvac/HVAC";
 import CHILLERS from "../components/products/hvac/CHILLERS";
 import IndustrialVentilationFans from "../components/products/hvac/IndustrialVentilationFans";
+import FanCoilUnits from "../components/products/hvac/FanCoilUnits";
+import VRFsystem from "../components/products/hvac/VRFsystem";
 
 export const SystemRoutes = () => {
     return (
@@ -24,7 +26,9 @@ export const SystemRoutes = () => {
             <Route path={'/Products/hvacproducts'} element={<HVAC/>}/>
             <Route path={'/products/hvac/chillers'} element={<CHILLERS/>}/>
             <Route path={'/products/hvac/industrialventilationfans'} element={<IndustrialVentilationFans/>}/>
-            
+            <Route path={'/products/hvac/fcus'} element={<FanCoilUnits/>}/>
+            <Route path={'/products/hvac/vrfsystem'} element={<VRFsystem/>}/>
+
             <Route path={'/'} element={<Home/>}/>
             
         </Routes>

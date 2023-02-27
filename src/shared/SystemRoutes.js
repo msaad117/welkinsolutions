@@ -13,6 +13,9 @@ import CHILLERS from "../components/products/hvac/CHILLERS";
 import IndustrialVentilationFans from "../components/products/hvac/IndustrialVentilationFans";
 import FanCoilUnits from "../components/products/hvac/FanCoilUnits";
 import VRFsystem from "../components/products/hvac/VRFsystem";
+import ROOFTOP from "../components/products/hvac/ROOFTOP";
+import DataCU from "../components/products/hvac/DataCU";
+import FabricAirDuct from "../components/products/hvac/FabricAirDuct";
 
 export const SystemRoutes = () => {
     return (
@@ -28,7 +31,10 @@ export const SystemRoutes = () => {
             <Route path={'/products/hvac/industrialventilationfans'} element={<IndustrialVentilationFans/>}/>
             <Route path={'/products/hvac/fcus'} element={<FanCoilUnits/>}/>
             <Route path={'/products/hvac/vrfsystem'} element={<VRFsystem/>}/>
-
+            <Route path={'/products/hvac/rooftoppackageunits'} element={<ROOFTOP/>}/>
+            <Route path={'/products/hvac/datacentercooling'} element={<DataCU/>}/>
+            <Route path={'/products/hvac/Fabricduct'} element={<FabricAirDuct/>}/>
+    
             <Route path={'/'} element={<Home/>}/>
             
         </Routes>

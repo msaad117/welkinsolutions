@@ -85,14 +85,14 @@ function HVAC() {
         <div className={styles.imageDiv}>
         <Link to="/products/hvac/fcus"> 
           <ImageCard
-            imageUrl={image8}
+            imageUrl={image7}
             imageAlt={"cleanroom image"}
           />
           <div>
 
             <p className={styles.textImageinner}>
               <p style={{ fontSize: "24px" }}>
-              Fan Coil Units
+              Fan Coil Units 
               </p>
               {/* <ReadMoreReact text={text}
                 min={40}
@@ -110,7 +110,7 @@ function HVAC() {
             imageAlt={"cleanroom image"}
           />
           <div>
-
+            <Link to='/products/hvac/rooftoppackageunits'>
             <p className={styles.textImageinner}>
               <p style={{ fontSize: "24px" }}>
               Roof Top Packege Units
@@ -121,7 +121,9 @@ function HVAC() {
                 max={50}
                 readMoreText=" read more"/> */}
             </p>
+            </Link>
           </div>
+          
         </div>
         <div className={styles.imageDiv}>
           <ImageCard
@@ -129,7 +131,7 @@ function HVAC() {
             imageAlt={"cleanroom image"}
           />
           <div>
-
+             <Link to='/products/hvac/datacentercooling'>
             <p className={styles.textImageinner}>
               <p style={{ fontSize: "24px" }}>
               Data Center Cooling
@@ -140,6 +142,7 @@ function HVAC() {
                 max={50}
                 readMoreText=" read more"/> */}
             </p>
+            </Link>
           </div>
         </div>
         <div className={styles.imageDiv}>
@@ -165,14 +168,14 @@ function HVAC() {
         </div>
         <div className={styles.imageDiv}>
           <ImageCard
-            imageUrl={image7}
+            imageUrl={image8}
             imageAlt={"cleanroom image"}
           />
           <div>
-
+            <Link to="/products/hvac/industrialventilationfans">
             <p className={styles.textImageinner}>
               <p style={{ fontSize: "24px" }}>
-              Fan Coil Units
+              Industrial Ventilation
               </p>
               {/* <ReadMoreReact text={text}
                 min={40}
@@ -181,6 +184,7 @@ function HVAC() {
                 readMoreText=" read more"/> */}
               
             </p>
+            </Link>
           </div>
         </div>
         <div className={styles.imageDiv}>
@@ -229,7 +233,7 @@ function HVAC() {
             imageAlt={"cleanroom image"}
           />
           <div>
-
+           <Link to='/products/hvac/Fabricduct'>
             <p className={styles.textImageinner}>
               <p style={{ fontSize: "24px" }}>
               Fabric Duct
@@ -241,6 +245,7 @@ function HVAC() {
                 readMoreText=" read more"/> */}
               
             </p>
+            </Link>
           </div>
         </div>
       </div>

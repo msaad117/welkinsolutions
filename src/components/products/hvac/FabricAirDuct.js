@@ -1,5 +1,5 @@
 import * as React from "react";
-import styles from './FabricAirDuct.module.css';
+import styles from './RoofUnit.module.css';
 import ImageCard from '../../common/ImageCard';
 import image1 from "../../../assets/Fabric Air Duct/Fabric Air Duct.jpg"
 
@@ -25,17 +25,8 @@ Faisalabad" />
                 <div style={{ backgroundColor: "#164057", "height": "50px" }}>
                     <h2 style={{ textAlign: "center", "paddingTop": "6px", "color": "white" }}>Fabric Air Duct</h2>
                 </div>
-                <div className={styles.Cards}>
-                <p>
-                    {text1}
-                </p>
-                <div >
-                    <img className={styles.imageCard } src={image1} alt={"FBD image"} loading="lazy"/>
-                </div>
             </div>
-
-            </div>
-            {/* <div className={styles.Cards}>
+            <div className={styles.Cards}>
                 <div className={styles.imageDiv}>
                     <ImageCard
                         imageUrl={image1}
@@ -61,8 +52,7 @@ Faisalabad" />
                     </div>
                 </div>
            
-            </div> */}
-       
+            </div>
         </div>
 
     )

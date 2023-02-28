@@ -43,7 +43,7 @@ function CHILLERS() {
           <div>
 
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
+              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
               Air Cooled Chillers
               </p>
               {/* <ReadMoreReact text={text}
@@ -63,7 +63,7 @@ function CHILLERS() {
           <div>
 
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
+              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
               Air Cooled Heat Pumps
               </p>
               {/* <ReadMoreReact text={text}
@@ -83,7 +83,7 @@ function CHILLERS() {
           <div>
 
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
+              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
               Water Cooled Chillers
               </p>
               {/* <ReadMoreReact text={text}
@@ -102,7 +102,7 @@ function CHILLERS() {
           <div>
 
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
+              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
               Water Cooled Heat Pumps
               </p>
               {/* <ReadMoreReact text={text}

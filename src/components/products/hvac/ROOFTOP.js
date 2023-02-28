@@ -8,7 +8,7 @@ import ReactReadMoreReadLess from "react-read-more-read-less";
 import { Helmet } from "react-helmet";
 
 function ROOFTOP() {
-    let text1 = "With Systemair rooftop package units, you get a mono package solution to heat and cool large buildings such as industries and shopping malls that have small space for installation. It is also easy to install directly on the roof. SysAer rooftop units have been designed and optimized to operate with R410A refrigerant fluid. Nominal cooling capacity range from 48 to 219 kW and heating capacity from 51 to 214 kW."
+    let text1 = "SysAer rooftop units have been designed and optimized to operate with R410A refrigerant fluid. Nominal cooling capacity range from 48 to 219 kW and heating capacity from 51 to 214 kW."
     let text2 = "SYSAER R32 rooftop units have been designed to operate with the R32 refrigerant. With a GWP (Global Warming Potential) of 675, this refrigerant is 3 times less polluting than the standard R410A. Nominal cooling capacity: from 106 to 139 kW Nominal heating capacity: from 106 to 142 kW"
 
     return (
@@ -24,6 +24,17 @@ Islamabad, Faisalabad" />
                 <div style={{ backgroundColor: "#164057", "height": "50px" }}>
                     <h2 style={{ textAlign: "center", "paddingTop": "6px", "color": "white" }}>Rooftop Package Units</h2>
                 </div>
+                <div className={styles.border}>
+          <div className={styles.borderpadding}>
+            <span >With Systemair rooftop package units, you get
+a mono package solution to heat and cool
+large buildings such as industries and
+shopping malls that have small space for
+installation. It is also easy to install directly on
+the roof 
+            </span>
+          </div>
+        </div>
             </div>
             <div className={styles.Cards}>
                 <div className={styles.imageDiv}>

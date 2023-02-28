@@ -46,7 +46,7 @@ function IndustrialVentilationFans() {
           <div>
 
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
+              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
               Circular Inline Duct Fans
               </p>
               {/* <ReadMoreReact text={text}
@@ -66,7 +66,7 @@ function IndustrialVentilationFans() {
           <div>
 
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
+              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
               Rectangular Duct Fans
               </p>
               {/* <ReadMoreReact text={text}
@@ -86,7 +86,7 @@ function IndustrialVentilationFans() {
           <div>
 
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
+              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
               Axials Fans
               </p>
               {/* <ReadMoreReact text={text}
@@ -105,7 +105,7 @@ function IndustrialVentilationFans() {
           <div>
 
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
+              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
               Explosion Proof Fans
               </p>
               {/* <ReadMoreReact text={text}
@@ -124,7 +124,7 @@ function IndustrialVentilationFans() {
           <div>
 
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
+              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
               Smoke Extract Fans
               </p>
               {/* <ReadMoreReact text={text}
@@ -143,7 +143,7 @@ function IndustrialVentilationFans() {
           <div>
 
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
+              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
               Centrifugal Fans
               </p>
               {/* <ReadMoreReact text={text}
@@ -162,7 +162,7 @@ function IndustrialVentilationFans() {
           <div>
 
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
+              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
               Roof Fans
               </p>
               {/* <ReadMoreReact text={text}

@@ -25,6 +25,7 @@ Faisalabad" />
                 <div style={{ backgroundColor: "#164057", "height": "50px" }}>
                     <h2 style={{ textAlign: "center", "paddingTop": "6px", "color": "white" }}>Fabric Air Duct</h2>
                 </div>
+             
             </div>
             <div className={styles.Cards}>
                 <div className={styles.imageDiv}>
@@ -35,7 +36,7 @@ Faisalabad" />
                     <div>
 
                         <p className={styles.textImageinner}>
-                            <p style={{ fontSize: "24px" }}>
+                            <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
                             Fabric Air Duct
                             </p>
                             <ReactReadMoreReadLess

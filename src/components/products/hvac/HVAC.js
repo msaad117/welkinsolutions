@@ -48,7 +48,7 @@ function HVAC() {
             <div >
            <a style={{width:"100%"}} href="/products/hvac/air-handling-units"> 
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
+              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
               Air Handling Units
               </p>
               {/* <ReadMoreReact text={text}
@@ -69,9 +69,9 @@ function HVAC() {
             imageAlt={"cleanroom image"}
           />
           <div>
-          <a style={{width:"100%"}} to="/products/hvac/chillers">
+          <a style={{width:"100%"}} href="/products/hvac/chillers">
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
+              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
               Chillers
               </p>
               {/* <ReadMoreReact text={text}
@@ -85,7 +85,7 @@ function HVAC() {
           </div>
         </div>
         <div className={styles.imageDiv}>
-        <a style={{width:"100%"}} to="/products/hvac/fcus"> 
+        <a style={{width:"100%"}} href="/products/hvac/fcus"> 
           <ImageCard
             imageUrl={image7}
             imageAlt={"cleanroom image"}
@@ -93,7 +93,7 @@ function HVAC() {
           <div>
 
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
+              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
               Fan Coil Units 
               </p>
               {/* <ReadMoreReact text={text}
@@ -112,9 +112,9 @@ function HVAC() {
             imageAlt={"cleanroom image"}
           />
           <div>
-            <a style={{width:"100%"}} to='/products/hvac/rooftoppackageunits'>
+            <a style={{width:"100%"}} href='/products/hvac/rooftoppackageunits'>
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
+              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
               Roof Top Packege Units
               </p>
               {/* <ReadMoreReact text={text}
@@ -133,9 +133,9 @@ function HVAC() {
             imageAlt={"cleanroom image"}
           />
           <div>
-          <a style={{width:"100%"}} to='/products/hvac/datacentercooling'>
+          <a style={{width:"100%"}} href='/products/hvac/datacentercooling'>
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
+              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
               Data Center Cooling
               </p>
               {/* <ReadMoreReact text={text}
@@ -153,9 +153,9 @@ function HVAC() {
             imageAlt={"cleanroom image"}
           />
           <div>
-          <a style={{width:"100%"}} to="/products/hvac/vrfsystem">
+          <a style={{width:"100%"}} href="/products/hvac/vrfsystem">
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
+              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
               VRF or VRV System
               </p>
               {/* <ReadMoreReact text={text}
@@ -174,10 +174,31 @@ function HVAC() {
             imageAlt={"cleanroom image"}
           />
           <div>
-          <a style={{width:"100%"}} to="/products/hvac/industrialventilationfans">
+          <a style={{width:"100%"}} href="/products/hvac/industrialventilationfans">
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
+              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
               Industrial Ventilation
+              </p>
+              {/* <ReadMoreReact text={text}
+                min={40}
+                // ideal={30}
+                max={50}
+                readMoreText=" read more"/> */}
+              
+            </p>
+            </a>
+          </div>
+        </div>
+        <div className={styles.imageDiv}>
+          <ImageCard
+            imageUrl={image11}
+            imageAlt={"cleanroom image"}
+          />
+          <div>
+            <a style={{width:"100%"}} href='/products/hvac/Fabricduct'>
+            <p className={styles.textImageinner}>
+              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
+              Fabric Duct
               </p>
               {/* <ReadMoreReact text={text}
                 min={40}
@@ -196,8 +217,8 @@ function HVAC() {
           />
           <div>
 
-            <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
+            <p className={styles.textImageinnerone}>
+              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
               Air Distribution Products
               </p>
               {/* <ReadMoreReact text={text}
@@ -216,8 +237,8 @@ function HVAC() {
           />
           <div>
 
-            <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
+            <p className={styles.textImageinnerone}>
+              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
               Fire Safety Products
               </p>
               {/* <ReadMoreReact text={text}
@@ -229,27 +250,7 @@ function HVAC() {
             </p>
           </div>
         </div>
-        <div className={styles.imageDiv}>
-          <ImageCard
-            imageUrl={image11}
-            imageAlt={"cleanroom image"}
-          />
-          <div>
-            <a style={{width:"100%"}} to='/products/hvac/Fabricduct'>
-            <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
-              Fabric Duct
-              </p>
-              {/* <ReadMoreReact text={text}
-                min={40}
-                // ideal={30}
-                max={50}
-                readMoreText=" read more"/> */}
-              
-            </p>
-            </a>
-          </div>
-        </div>
+        
       </div>
     </div>
 

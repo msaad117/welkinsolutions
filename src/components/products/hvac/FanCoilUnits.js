@@ -43,7 +43,7 @@ FCUs, wall mounted FCUs, ceiling suspended FCUs, Floor FCUs etc.
           <div>
 
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
+              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
               Casstte Type FCUs
               </p>
               {/* <ReadMoreReact text={text}
@@ -62,7 +62,7 @@ FCUs, wall mounted FCUs, ceiling suspended FCUs, Floor FCUs etc.
           <div>
 
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
+              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
               Floor-Ceiling FCUs
               </p>
               {/* <ReadMoreReact text={text}
@@ -81,7 +81,7 @@ FCUs, wall mounted FCUs, ceiling suspended FCUs, Floor FCUs etc.
           <div>
 
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
+              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
               Wall Mounted FCUs
               </p>
               {/* <ReadMoreReact text={text}
@@ -100,7 +100,7 @@ FCUs, wall mounted FCUs, ceiling suspended FCUs, Floor FCUs etc.
           <div>
 
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
+              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
               Ducted FCUs
               </p>
               {/* <ReadMoreReact text={text}
@@ -120,7 +120,7 @@ FCUs, wall mounted FCUs, ceiling suspended FCUs, Floor FCUs etc.
           <div>
 
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
+              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
               Miscellaneous Accessories
               </p>
               {/* <ReadMoreReact text={text}

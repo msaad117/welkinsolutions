@@ -16,6 +16,7 @@ import VRFsystem from "../components/products/hvac/VRFsystem";
 import ROOFTOP from "../components/products/hvac/ROOFTOP";
 import DataCU from "../components/products/hvac/DataCU";
 import FabricAirDuct from "../components/products/hvac/FabricAirDuct";
+import PageNotFound from "../PageNotFound/PageNotFound";
 
 export const SystemRoutes = () => {
     return (
@@ -34,7 +35,7 @@ export const SystemRoutes = () => {
             <Route path={'/products/hvac/rooftoppackageunits'} element={<ROOFTOP/>}/>
             <Route path={'/products/hvac/datacentercooling'} element={<DataCU/>}/>
             <Route path={'/products/hvac/Fabricduct'} element={<FabricAirDuct/>}/>
-    
+            <Route path='*' exact={true} element={<PageNotFound/>} />
             <Route path={'/'} element={<Home/>}/>
             
         </Routes>

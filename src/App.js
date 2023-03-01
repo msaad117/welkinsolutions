@@ -4,7 +4,7 @@ import { SystemRoutes } from "./shared/SystemRoutes";
 
 function App() {
   return (
-    <div style={{overflow:"hidden"}}>
+    <div style={{overflowX:"hidden"}}>
       <Navbar/>
       <SystemRoutes/>
       <Footer/>

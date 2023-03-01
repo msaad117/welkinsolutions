@@ -50,9 +50,6 @@ function Navbar() {
                     </svg>
                 </button>
             </div>
-            {console.log("clic",isServiceClicked)}
-            {console.log("isproduct",isProductClicked)}
-            {console.log("isiinerproduct",isInnerProductClicked)}
             {isClick && (
                 <div className={styles.mobileBar}>
                     {/* <span  style={{"fontSize":"45px",display:"flex",justifyContent:"end","paddingTop":"2px"}} onClick={() => setIsClick(!isClick)}><AiFillCloseCircle/></span> */}
@@ -103,7 +100,7 @@ function Navbar() {
                         </div>
                     </li>} */}
                     <li style={{ paddingBottom: "12px"  }}>
-                        <a style={{ textDecoration: 'none', listStyle: "none", color: "white" }} href={"/services"}> Projects </a>
+                        <a style={{ textDecoration: 'none', listStyle: "none", color: "white" }} href={"/projects"}> Projects </a>
                     </li>
                     {!isProductClicked ? <li className={styles.mobileServicetag} onClick={() => setIsProductClick(!isProductClicked)}>
                         <a style={{ textDecoration: 'none', color: "white" ,display:"flex"}} >Products  <span style={{"paddingLeft":"16px","paddingTop":"4px"}}>{isProductClicked ? <AiFillCaretUp /> : <AiFillCaretDown />}</span></a>
@@ -161,7 +158,7 @@ function Navbar() {
                 </li>
                 <li>
 
-                    <Link className={styles.Servicetag} to={"/services"}>Projects 
+                    <Link className={styles.Servicetag} to={"/projects"}>Projects 
                        
                     </Link>
 

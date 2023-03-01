@@ -90,7 +90,7 @@ function Navbar() {
                         </div>
                     </li> */}
 
-                    {!isServiceClicked ? <li className={styles.mobileServicetag} onClick={() => setIsServiceClick(!isServiceClicked)}>
+                    {/* {!isServiceClicked ? <li className={styles.mobileServicetag} onClick={() => setIsServiceClick(!isServiceClicked)}>
                         <a style={{ textDecoration: 'none', color: "white" ,display:"flex"}} >Services  <span style={{"paddingLeft":"20px","paddingTop":"4px"}}>{isServiceClicked ? < AiFillCaretUp /> : <AiFillCaretDown />}</span></a>
 
                     </li> : <li className={styles.mobileServicetag} onClick={() => setIsServiceClick(!isServiceClicked)}>
@@ -100,9 +100,11 @@ function Navbar() {
                             </Link>
                             </li>
                             <li className={styles.InnerServicetagmobile}>  <a  href={"/services"}>Clean Room Solutions </a></li>
-                            <li className={styles.InnerServicetagmobile}> <Link to={"/services"}>BMS </Link></li>
                         </div>
-                    </li>}
+                    </li>} */}
+                    <li style={{ paddingBottom: "12px"  }}>
+                        <a style={{ textDecoration: 'none', listStyle: "none", color: "white" }} href={"/services"}> Projects </a>
+                    </li>
                     {!isProductClicked ? <li className={styles.mobileServicetag} onClick={() => setIsProductClick(!isProductClicked)}>
                         <a style={{ textDecoration: 'none', color: "white" ,display:"flex"}} >Products  <span style={{"paddingLeft":"16px","paddingTop":"4px"}}>{isProductClicked ? <AiFillCaretUp /> : <AiFillCaretDown />}</span></a>
 
@@ -139,7 +141,7 @@ function Navbar() {
 
 
                             <li className={styles.InnerServicetagmobile}> <a href={"/products/cleanroomsolutions"}>Clean Room Solutions </a></li>
-                            <li className={styles.InnerServicetagmobile}> <Link to={"/services"}>BMS </Link></li>
+                           
                         </div>
                     </li>}
                     
@@ -159,14 +161,8 @@ function Navbar() {
                 </li>
                 <li>
 
-                    <Link className={styles.Servicetag} to={"/services"}>Services <AiFillCaretDown />
-                        <div className={styles.maindropdownMenu}>
-                            <li className={styles.InnerServiceTagoption2}> <Link to={"/Products/hvacproducts"}>HVAC
-                            </Link>
-                            </li>
-                            <li> <Link className={styles.InnerServicetag} to={"/services"}>Clean Room Solutions </Link></li>
-                            <li> <Link className={styles.InnerServicetag} to={"/services"}>BMS </Link></li>
-                        </div>
+                    <Link className={styles.Servicetag} to={"/services"}>Projects 
+                       
                     </Link>
 
                 </li>
@@ -188,7 +184,7 @@ function Navbar() {
                             </Link>
                             </li>
                             <li> <Link className={styles.InnerServicetag} to={"/products/cleanroomsolutions"}>Clean Room  </Link></li>
-                            <li> <Link className={styles.InnerServicetag} to={"/services"}>BMS </Link></li>
+                            
                         </div>
                     </Link>
 

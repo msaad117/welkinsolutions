@@ -136,7 +136,7 @@ margin-bottom: 50px;
   @media (max-width: 800px) {
     .mainStyle{
         height: 50px;
-        margin-left: 2%;
+        margin-left: 2.5%;
         margin-right: 2%;
         margin-top: 30px;
          margin-bottom: 10px;  
@@ -146,7 +146,7 @@ margin-bottom: 50px;
       margin-bottom: 50px;
   }
     .Cards{
-      padding-left: 5%;
+      padding-left: 8%;
       display: grid;
       grid-template-columns: repeat(1, 1fr)
       }

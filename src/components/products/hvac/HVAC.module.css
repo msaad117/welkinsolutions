@@ -1,7 +1,7 @@
 .mainStyle{
     text-align: center;
     width: 96%;
-    height: 250px;
+    height: 200px;
     margin-left: 2%;
     margin-right: 2%;
     margin-top: 30px;
@@ -10,6 +10,9 @@
 .border{
     border: 1px solid #d4c9c933;
     height: 100px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+
 }
 .borderpadding{
   padding-top:1px ;
@@ -176,7 +179,7 @@ margin-bottom: 50px;
     }
   @media (max-width: 800px) {
     .mainStyle{
-        height: 160px;
+        height: 200px;
         margin-left: 2%;
         margin-right: 2%;
         margin-top: 30px;
@@ -187,7 +190,7 @@ margin-bottom: 50px;
       margin-bottom: 50px;
   }
     .Cards{
-      padding-left: 5%;
+      padding-left: 8%;
       display: grid;
       grid-template-columns: repeat(1, 1fr)
       }

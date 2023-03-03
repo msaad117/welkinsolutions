@@ -36,7 +36,7 @@ equipment cooling solutions, spot cooling solutions" />
                     <div>
 
                         <p className={styles.textImageinner}>
-                            <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
+                            <p style={{ fontSize: "24px" ,fontWeight:"900",paddingTop: "5px"}}>
                             Data Center Cooling Systems
                             </p>
                             <ReactReadMoreReadLess

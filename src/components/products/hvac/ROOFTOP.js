@@ -45,7 +45,7 @@ the roof
                     <div>
 
                         <p className={styles.textImageinner}>
-                            <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
+                            <p style={{ fontSize: "24px" ,fontWeight:"900",paddingTop: "5px"}}>
                             Rooftop Package Units
                             </p>
                             <ReactReadMoreReadLess
@@ -69,7 +69,7 @@ the roof
                     <div>
 
                         <p className={styles.textImageinner}>
-                        <p style={{ fontSize: "24px" ,paddingTop: "5px" }}>
+                        <p style={{ fontSize: "24px" ,fontWeight:"900",paddingTop: "5px"}}>
                             Rooftop PU SYSAER R32
                             </p>
                             <ReactReadMoreReadLess

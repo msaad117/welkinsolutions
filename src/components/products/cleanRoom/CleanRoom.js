@@ -26,7 +26,7 @@ function CleanRooms() {
         <meta name="keywords" content="Cleanroom solutions, cleanroom solutions in pakistan, cleanroom companies in Pakistan, Lahore, karachi, faisalabad, Islamabad, cleanroom panels in pakistan, cleanroom construction in Pakistan, cleanroom windows" />
 
       </Helmet>
-      <div style={{ "textAlign": "center", "width": "94%", "height": "250px", "marginLeft": "2%", "marginRight": "2%", "marginTop": "30px", "marginBottom": "20px" }}>
+      <div className={styles.mainStyle}>
         <div style={{ backgroundColor: "#164057", "height": "50px" }}>
           <h2 style={{ textAlign: "center", "paddingTop": "6px", "color": "white" }}>Clean Room Solutions</h2>
         </div>
@@ -50,7 +50,7 @@ function CleanRooms() {
           <div>
 
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
+              <p style={{ fontSize: "24px",fontWeight:"900",paddingTop: "5px" }}>
                 Cleanroom Wall Panels
               </p>
               {/* <ReadMoreReact text={text}
@@ -79,7 +79,7 @@ function CleanRooms() {
           <div>
 
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
+              <p style={{ fontSize: "24px",fontWeight:"900",paddingTop: "5px" }}>
                 Cleanroom Windows
               </p>
               {/* <ReadMoreReact text={text}
@@ -108,7 +108,7 @@ function CleanRooms() {
           <div>
 
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
+              <p style={{ fontSize: "24px",fontWeight:"900",paddingTop: "5px" }}>
                 Cleanroom Ceiling
               </p>
               {/* <ReadMoreReact text={text}
@@ -137,7 +137,7 @@ function CleanRooms() {
           <div>
 
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
+              <p style={{ fontSize: "24px",fontWeight:"900",paddingTop: "5px" }}>
                 Cleanroom Doors
               </p>
               {/* <ReadMoreReact text={text}
@@ -166,7 +166,7 @@ function CleanRooms() {
           <div>
 
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
+              <p style={{ fontSize: "24px",fontWeight:"900",paddingTop: "5px" }}>
                 Cleanroom Equipment
               </p>
               {/* <ReadMoreReact text={text}
@@ -195,7 +195,7 @@ function CleanRooms() {
           <div>
 
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
+              <p style={{ fontSize: "24px",fontWeight:"900",paddingTop: "5px" }}>
                 Cleanroom Accessories
               </p>
               {/* <ReadMoreReact text={text}

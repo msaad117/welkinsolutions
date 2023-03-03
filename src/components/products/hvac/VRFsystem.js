@@ -1,5 +1,5 @@
 import * as React from "react";
-import styles from './CHILLERS.module.css';
+import styles from './VRF.module.css';
 import ImageCard from '../../common/ImageCard';
 import image1 from "../../../assets/VRF/1- VRF Cassette.jpg"
 import image2 from "../../../assets/VRF/1- VRF Floor-Ceilling.jpg"
@@ -52,7 +52,7 @@ mounted units, ducted units, floor units with matching condensing units.
           <div>
 
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
+              <p style={{ fontSize: "24px" ,fontWeight:"900",paddingTop: "25px"}}>
               VRF Cassette
               </p>
               {/* <ReadMoreReact text={text}
@@ -72,7 +72,7 @@ mounted units, ducted units, floor units with matching condensing units.
           <div>
 
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
+              <p style={{ fontSize: "24px" ,fontWeight:"900",paddingTop: "25px"}}>
               VRF Floor-Ceilling
               </p>
               {/* <ReadMoreReact text={text}
@@ -92,7 +92,7 @@ mounted units, ducted units, floor units with matching condensing units.
           <div>
 
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
+              <p style={{ fontSize: "24px" ,fontWeight:"900",paddingTop: "25px"}}>
               VRF High Wall
               </p>
               {/* <ReadMoreReact text={text}
@@ -111,7 +111,7 @@ mounted units, ducted units, floor units with matching condensing units.
           <div>
 
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
+              <p style={{ fontSize: "24px" ,fontWeight:"900",paddingTop: "25px"}}>
               VRF Ducted
               </p>
               {/* <ReadMoreReact text={text}
@@ -130,7 +130,7 @@ mounted units, ducted units, floor units with matching condensing units.
           <div>
 
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
+              <p style={{ fontSize: "24px" ,fontWeight:"900",paddingTop: "25px"}}>
               VRF Outdoor Units
               </p>
               {/* <ReadMoreReact text={text}
@@ -149,7 +149,7 @@ mounted units, ducted units, floor units with matching condensing units.
           <div>
 
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
+              <p style={{ fontSize: "24px" ,fontWeight:"900",paddingTop: "25px"}}>
               DX System Accessories
               </p>
               {/* <ReadMoreReact text={text}
@@ -168,7 +168,7 @@ mounted units, ducted units, floor units with matching condensing units.
           <div>
 
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" }}>
+              <p style={{ fontSize: "24px" ,fontWeight:"900",paddingTop: "25px"}}>
               Splits Floor - Ceilling
               </p>
               {/* <ReadMoreReact text={text}

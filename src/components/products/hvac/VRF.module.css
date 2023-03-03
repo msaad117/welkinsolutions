@@ -1,7 +1,7 @@
 .mainStyle{
     text-align: center;
     width: 96%;
-    height: 240px;
+    height: 250px;
     margin-left: 2%;
     margin-right: 2%;
     margin-top: 30px;
@@ -11,7 +11,7 @@
 .border{
   text-align: center;
     border: 1px solid #d4c9c933;
-    height: 190px;
+    height: 160px;
     padding: 10px;
     font-family: Arial, sans-serif;
     
@@ -140,15 +140,16 @@ margin-bottom: 50px;
     }
   @media (max-width: 800px) {
     .mainStyle{
-        height: 360px;
+        height: 320px;
         margin-left: 2%;
         margin-right: 2%;
         margin-top: 30px;
          margin-bottom: 20px;  
     }
     .border{
-      height: 300px;
+      height: 220px;
       margin-bottom: 50px;
+      
   }
     .Cards{
       padding-left: 8%;

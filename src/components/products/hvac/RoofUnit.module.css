@@ -20,6 +20,8 @@
 .border{
   border: 1px solid #d4c9c933;
   height: 80px;
+  padding: 10px;
+  font-family: Arial, sans-serif;
 }
 .borderpadding{
 padding-top:15px ;
@@ -157,7 +159,7 @@ margin-bottom: 50px;
     margin-bottom: 50px;
 }
   .Cards{
-    padding-left: 7%;
+    padding-left: 8%;
     display: grid;
     grid-template-columns: repeat(1, 1fr)
     }

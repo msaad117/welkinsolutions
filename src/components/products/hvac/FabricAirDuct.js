@@ -1,5 +1,5 @@
 import * as React from "react";
-import styles from './RoofUnit.module.css';
+import styles from './FabricAirDuct.module.css';
 import ImageCard from '../../common/ImageCard';
 import image1 from "../../../assets/Fabric Air Duct/Fabric Air Duct.jpg"
 
@@ -36,7 +36,7 @@ Faisalabad" />
                     <div>
 
                         <p className={styles.textImageinner}>
-                            <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
+                            <p style={{ fontSize: "24px" ,fontWeight:"900",paddingTop: "5px"}}>
                             Fabric Air Duct
                             </p>
                             <ReactReadMoreReadLess

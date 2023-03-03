@@ -37,9 +37,9 @@ function Projects() {
   return (
     <div>
       <Helmet>
-        <title>Central air conditioning companies in Lahore</title>
+        <title>Welkin Solutions (Pvt.) Ltd</title>
         <meta name="description" content="We as central air conditioning company is working with national & multinational companies in Pakistan. Some of our clients Style Textile, Interloop, Unilever, Nestle, Sami Pharma, Abbot laboratories, Tetra Pak, Sayyed HealthCare and many more." />
-        <meta name="keywords" content="central air conditioning companies in Pakistan, central air conditioning in Lahore, central air conditioning companies in Karachi, HVAC projects in Pakistan" />
+        <meta name="keywords" content="central air conditioning companies in Pakistan, central air conditioning in Lahore, central air conditioning companies in Karachi, HVAC projects in Pakistan,Central air conditioning companies in Lahore" />
 
       </Helmet>
       <div className={styles.mainStyle}>

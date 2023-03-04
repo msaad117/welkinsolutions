@@ -21,7 +21,7 @@ const ImageGrid = () => {
                 min={40}
                 // ideal={30}
                 max={50}
-                nnn
+                
                 readMoreText=" read more"/> */}
 
             </p>

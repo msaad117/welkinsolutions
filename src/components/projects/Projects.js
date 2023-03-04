@@ -53,9 +53,7 @@ function Projects() {
             imageUrl={image1}
             imageAlt={"cleanroom image"}
           />
-          <div>
-
-            <p className={styles.textImageinner}>
+          <p className={styles.textImageinner}>
               <p style={{ fontSize: "27px" ,paddingTop: "5px",fontWeight: "1000"}}>
               Interloop Limited
               </p>
@@ -66,6 +64,9 @@ function Projects() {
                 readMoreText=" read more"/> */}
               
             </p>
+          <div>
+
+            
           </div>
         </div>
         <div className={styles.imageDiv}>
@@ -73,9 +74,7 @@ function Projects() {
             imageUrl={image2}
             imageAlt={"cleanroom image"}
           />
-          <div>
-
-            <p className={styles.textImageinner}>
+          <p className={styles.textImageinner}>
               <p style={{ fontSize: "27px" ,paddingTop: "5px",fontWeight: "1000"}}>
               Fazal Rehman Fabrics Limited
               </p>
@@ -86,6 +85,9 @@ function Projects() {
                 readMoreText=" read more"/> */}
 
             </p>
+          <div>
+
+            
           </div>
         </div>
         <div className={styles.imageDiv}>

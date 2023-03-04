@@ -17,13 +17,14 @@ import ROOFTOP from "../components/products/hvac/ROOFTOP";
 import DataCU from "../components/products/hvac/DataCU";
 import FabricAirDuct from "../components/products/hvac/FabricAirDuct";
 import PageNotFound from "../PageNotFound/PageNotFound";
+import ImageGrid from "../components/projects/ImageGrid";
 
 
 export const SystemRoutes = () => {
     return (
         <Routes>
             <Route path={'/about'} element={<About/>}/>
-            <Route path={'/projects'} element={<Projects/>}/>
+            <Route path={'/projects'} element={<ImageGrid/>}/>
             <Route path={'/products'} element={<Products/>}/>
             <Route path={'/contact'} element={<Contact/>}/>
             <Route path={'/products/cleanroomsolutions'} element={<CleanRooms/>}/>

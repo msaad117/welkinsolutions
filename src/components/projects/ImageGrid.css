@@ -1,0 +1,22 @@
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+  justify-content: center;
+  }
+  
+  .image-wrapper {
+    margin-bottom: 20px;
+    text-align: center;
+    padding-left: 20px;
+  }
+  
+  .image-wrapper img {
+    width: 100%;
+  }
+  
+  .image-wrapper p {
+    margin-top: 10px;
+  }
+  

@@ -125,7 +125,12 @@ h2{
       display: none;
   }
 
-
+  .imgdiv{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 120px;
+    overflow-y:hidden;
+  }
   @media screen and (max-width: 1100px) {
     .SliderInner{
         padding-left: 20px;

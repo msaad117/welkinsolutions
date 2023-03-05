@@ -5,7 +5,7 @@ import project3 from "../../assets/Projects/3- MG Apparel.png"
 import project4 from "../../assets/Projects/4- Style Textile.jpeg"
 import project5 from "../../assets/Projects/5- Sami Pharmacueticals.png"
 import project6 from "../../assets/Projects/6- Nabi Qasim Industries.jpeg"
-import ImageCard from '../common/ImageCard';
+import Image from './image';
 import styles from './OurProjects.module.css';
 
 export default function OurProjects() {
@@ -14,9 +14,9 @@ export default function OurProjects() {
       <h2 style={{"fontSize":"32px"}}>Recent Projects</h2>
       <div className={styles.Cards}>
         <div className={styles.imageDiv}>
-          <ImageCard
+          <Image
             className={styles.imageDiv}
-            imageUrl={project1}
+            Url={project1}
 
           />
           <div className={styles.overlay}>
@@ -24,9 +24,9 @@ export default function OurProjects() {
           </div>
         </div>
         <div className={styles.imageDiv}>
-          <ImageCard
+          <Image
             className={styles.imageDiv}
-            imageUrl={project2}
+            Url={project2}
 
           />
           <div className={styles.overlay}>
@@ -34,9 +34,9 @@ export default function OurProjects() {
           </div>
         </div>
         <div className={styles.imageDiv}>
-          <ImageCard
+          <Image
             className={styles.imageDiv}
-            imageUrl={project3}
+            Url={project3}
 
           />
           <div className={styles.overlay}>
@@ -44,9 +44,9 @@ export default function OurProjects() {
           </div>
         </div>
         <div className={styles.imageDiv}>
-          <ImageCard
+          <Image
             className={styles.imageDiv}
-            imageUrl={project4}
+            Url={project4}
 
           />
           <div className={styles.overlay}>
@@ -54,8 +54,8 @@ export default function OurProjects() {
           </div>
         </div>
         <div className={styles.imageDiv}>
-          <ImageCard
-            imageUrl={project5}
+          <Image
+            Url={project5}
 
           />
           <div className={styles.overlay}>
@@ -63,8 +63,8 @@ export default function OurProjects() {
           </div>
         </div>
         <div className={styles.imageDiv}>
-        <ImageCard
-          imageUrl={project6}
+        <Image
+          Url={project6}
 
         />
         <div className={styles.overlay}>

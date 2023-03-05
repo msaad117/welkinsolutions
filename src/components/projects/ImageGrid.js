@@ -17,6 +17,8 @@ const ImageGrid = () => {
             imageAlt={"cleanroom image"}/>
           <p style={{"position":"relative",width:"262px"}}>
           Fazal Rehman Fabrics Limited
+          Fazal Rehman Fabrics Limited
+          Fazal Rehman Fabrics Limited
               {/* <ReadMoreReact text={text}
                 min={40}
                 // ideal={30}

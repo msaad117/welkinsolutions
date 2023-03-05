@@ -1,6 +1,6 @@
 import * as React from "react";
 import styles from './AHU.module.css';
-import ImageCard from '../../common/ImageCard';
+import ImageCard from '../../common/ImageCard'
 import image1 from "../../../assets/AHUs/1- Modular Air handling Units.jpg"
 import image2 from "../../../assets/AHUs/2-Hygiene Air Handling Units.jpeg"
 import image3 from "../../../assets/AHUs/3-Compact Air Handling Units.jpg"

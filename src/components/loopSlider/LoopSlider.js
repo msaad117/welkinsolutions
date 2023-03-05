@@ -1,28 +1,28 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
-// import Profile1 from "../../assets/Clients/logo1.png"
-import Profile2 from "../../assets/Clients/test2.png"
-import Profile3 from "../../assets/Clients/3-highnoon-laboratories-limited.jpg"
-import Profile4 from "../../assets/Clients/4-PAF.png"
-import Profile5 from "../../assets/Clients/5-ccl.png"
-import Profile6 from "../../assets/Clients/6-Coats.png" 
-import Profile7 from "../../assets/Clients/7-US Apparel & Textile.png"
-// import Profile8 from "../../assets/Clients/8-Longlife.png" 
-import Profile9 from "../../assets/Clients/9-byonyks logo.png"
-import Profile10 from "../../assets/Clients/10-Mehmood Group.jpg"
-import Profile11 from "../../assets/Clients/11-interloop.jpg"
-// import Profile12 from "../../assets/Clients/12-Nutribel (Pvt.) Ltd.jpg"
-// import Profile13 from "../../assets/Clients/13-unilever.png"
-// import Profile14 from "../../assets/Clients/14-Live Well Capsule.jpg"
-// import Profile15 from "../../assets/Clients/14-Taiga Apparel.png"
-// import Profile16 from "../../assets/Clients/15-Hi-tech Allay Wheels Ltd..jpg"
-// import Profile17 from "../../assets/Clients/16-Coca_Cola.jpg"
-import Profile18 from "../../assets/Clients/16-GlaxoSmithKline.jpg" 
-// import Profile19 from "../../assets/Clients/18-Pakistan Navy.png" 
-// import Profile20 from "../../assets/Clients/19-pepsi.png" 
-// import Profile21 from "../../assets/Clients/20-Abbott Laboratories.jpg"  
-// import Profile22 from "../../assets/Clients/21-GMSA.png"   
-// import Profile23 from "../../assets/Clients/Al Aziz Group of Companies.png"
+// import Profile1 from "../../assets/clients/logo1.png"
+import Profile2 from "../../assets/clients/1-style textile.png"
+import Profile3 from "../../assets/clients/2-Interloop.png"
+import Profile4 from "../../assets/clients/2-sami-icon.png"
+import Profile5 from "../../assets/clients/3-Fazal Rehman Fabrics.png"
+import Profile6 from "../../assets/clients/4-Mehmood Group.jpg" 
+import Profile7 from "../../assets/clients/4-PAF.png"
+// import Profile8 from "../../assets/clients/8-Longlife.png" 
+import Profile9 from "../../assets/clients/5-ccl.png"
+import Profile10 from "../../assets/clients/5-Elsewedy Electric.png"
+import Profile11 from "../../assets/clients/5-Nishat Sutas Dairy Limited.png"
+// import Profile12 from "../../assets/clients/12-Nutribel (Pvt.) Ltd.jpg"
+// import Profile13 from "../../assets/clients/13-unilever.png"
+// import Profile14 from "../../assets/clients/14-Live Well Capsule.jpg"
+// import Profile15 from "../../assets/clients/14-Taiga Apparel.png"
+// import Profile16 from "../../assets/clients/15-Hi-tech Allay Wheels Ltd..jpg"
+// import Profile17 from "../../assets/clients/16-Coca_Cola.jpg"
+import Profile18 from "../../assets/clients/16-GlaxoSmithKline.jpg" 
+// import Profile19 from "../../assets/clients/18-Pakistan Navy.png" 
+// import Profile20 from "../../assets/clients/19-pepsi.png" 
+// import Profile21 from "../../assets/clients/20-Abbott Laboratories.jpg"  
+// import Profile22 from "../../assets/clients/21-GMSA.png"   
+// import Profile23 from "../../assets/clients/Al Aziz Group of Companies.png"
 import styles from './LoopSlider.module.css';
 
 const responsive = {
@@ -45,7 +45,7 @@ const responsive = {
 export default function LoopSlider() {
     return (
       <div style={{"width":"90%","margin":"auto","textAlign":"center"}}>
-        <h2 style={styles.h2}>Our Clients</h2>
+        <h2 style={styles.h2}>Our clients</h2>
       <Marquee
       swipeable={false}
       draggable={false}

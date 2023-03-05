@@ -28,12 +28,11 @@ import image24 from "../../assets/ProjectsPage/25- Fauji Foods.jpeg"
 import image25 from "../../assets/ProjectsPage/26- Emporium Mall.jpg"
 import image26 from "../../assets/ProjectsPage/27- GSK.jpg"
 import image27 from "../../assets/ProjectsPage/28- Benazir Bhutto International Airport.jpeg"
-
 import { Helmet } from "react-helmet";
 
 function Projects() {
 
-
+let text="tesgggggggggggggggggggggggggg g  g g       gd d f"
   return (
     <div>
       <Helmet>
@@ -54,7 +53,7 @@ function Projects() {
             imageAlt={"cleanroom image"}
           />
           <p className={styles.textImageinner}>
-              <p style={{ fontSize: "27px" ,paddingTop: "5px",fontWeight: "1000"}}>
+              <p style={{ fontSize: "27px" ,paddingTop: "5px",fontWeight: "1000", "textAlign": "center"}}>
               Interloop Limited
               </p>
               {/* <ReadMoreReact text={text}
@@ -75,15 +74,9 @@ function Projects() {
             imageAlt={"cleanroom image"}
           />
           <p className={styles.textImageinner}>
-              <p style={{ fontSize: "27px" ,paddingTop: "5px",fontWeight: "1000"}}>
+              <p style={{ fontSize: "27px" ,paddingTop: "5px",fontWeight: "1000", "textAlign": "center"}}>
               Fazal Rehman Fabrics Limited
               </p>
-              {/* <ReadMoreReact text={text}
-                min={40}
-                // ideal={30}
-                max={50}
-                readMoreText=" read more"/> */}
-
             </p>
           <div>
 

@@ -32,108 +32,54 @@ margin-top: 50px;
 margin-bottom: 50px;
 }
 
-.button {
-    background-color: #164057; /* Green */
-    border: none;
-    color: white;
-    padding: 35px 80px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 28px;
-    display: flex;
-  }
+.Cards{
 
-  .imageDiv{
-    position:relative;
-    width:90%
-  }
-  .textImage {
-    width:350px;
-    background-color:#164057;
-    position:relative;
-    top:30%;
-    left: 175px;
-    right: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 25px;
-    opacity: 0.7;
-    color: white;
-    font-weight: 900;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-family: Poppines;
-  }
-  /* .more{
-    padding-top: 50px;
-  } */
-  .textImageinner {
-    width:350px;
-    background-color:#164057;
-    position:relative;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+justify-content: center;
+padding-top: 20px;
+
+}
+
+.imageDiv{
+  text-align: center;
+    padding-left: 20px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.textImageinner {
+  /* min-height: 130px;
+  max-height: 350px; */
+  height: 80px;
+  width:262px;
+  background-color:#164057;
+  position:relative;
 /* left: 2px; */
-    /* top:30%; */
-    /* left: 175px; */
-    /* right: 50%; */
-    /* transform: translate(-50%, -50%); */
-    font-size: 15px;
-    opacity: 0.7;
-    color: white;
-    font-weight: 900;
-    top: -20px;
-    padding-bottom: 10px;
-    font-family: Poppines;
-    text-align: center;
-  }
-  .textImageinner:hover{
-    cursor: pointer;
-  }
+  /* top:30%; */
+  /* left: 175px; */
+  /* right: 50%; */
+  /* transform: translate(-50%, -50%); */
+  font-size: 15px;
+  opacity: 0.7;
+  color: white;
+  font-weight: 400;
+  top: -20px;
+  padding-bottom: 10px;
+  font-family: Poppines;
+  text-align: center;
+  font-weight: 900;
+  
+}
+
   @media (max-width: 1100px) {
    
     .border{
       height: 140px;
   }
-    .Cards{
-      padding-left: 4%;
-      display: grid;
-      grid-template-columns: repeat(2, 1fr)
-      }
-      .textImage {
-        width:85%;
-        background-color:#164057;
-        position:relative;
-        top:30%;
-        margin-left: 50%;
-        margin-right: 50%;
-        left: 0;
-        right: 0;
-        font-size: 25px;
-        opacity: 0.7;
-        color: rgb(255, 255, 255);
-        font-weight: 900;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        font-family: Poppines;
-      }
-      .textImageinner {
-        width:100%;
-        background-color:#164057;
-        position:relative;
-        
-    /* left: 2px; */
-        /* top:30%; */
-        /* left: 175px; */
-        /* right: 50%; */
-        /* transform: translate(-50%, -50%); */
-        font-size: 15px;
-        opacity: 0.7;
-        color: white;
-        font-weight: 400;
-        top: -10px;
-        padding-bottom: 10px;
-        font-family: Poppines;
-        text-align: center;
-      }
+  
     }
   @media (max-width: 800px) {
     .mainStyle{
@@ -147,37 +93,9 @@ margin-bottom: 50px;
       height: 140px;
       margin-bottom: 50px;
   }
-    .Cards{
-      
-      padding-left: 8%;
-      display: grid;
-      grid-template-columns: repeat(1, 1fr)
-      }
     .borderpadding{
      padding-top: 10px;
   }
-    .buttonDisplay{
-        /* padding-bottom: 20px;
-        margin-left: 14%;
-        margin-right: 14%; */
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between; 
-        /* margin-top: 50px;
-        margin-bottom: 50px; */
-        }
-        .button {
-            background-color: #164057; /* Green */
-            border: none;
-            color: white;
-            padding: 35px 80px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin-bottom: 50px;
-            margin-top: 20px;
-            font-size: 20px;
-          }
+
 }
 

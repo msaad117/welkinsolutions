@@ -70,7 +70,7 @@ export default function LoopSlider() {
       autoPlaySpeed={1000}
       keyBoardControl={true}
       customTransition="all .5"
-      transitionDuration={1000}
+      transitionDuration={100}
       // containerClass="carousel-container"
       removeArrowOnDeviceType={["tablet", "mobile","desktop"]}
       // itemClass="carousel-item-padding-90-px"
@@ -89,7 +89,7 @@ export default function LoopSlider() {
        <div className={styles.imgdiv}><img style={{"paddingTop":"42px"}} src={Profile14}></img></div> 
        <div className={styles.imgdiv}><img src={Profile15}></img></div> 
        <div className={styles.imgdiv} ><img src={Profile16}></img></div> 
-       <div className={styles.imgdiv}><img  style={{"paddingTop":"42px"}} src={Profile17}></img></div>
+       <div className={styles.imgdiv}><img  style={{"paddingTop":"21px"}} src={Profile17}></img></div>
       <div className={styles.imgdiv}><img src={Profile18}></img></div>
        <div className={styles.imgdiv}><img src={Profile19}></img></div> 
        <div className={styles.imgdiv}>< img style={{"paddingTop":"42px"}} src={Profile20}></img></div> 
@@ -100,7 +100,7 @@ export default function LoopSlider() {
       <div className={styles.imgdiv}><img src={Profile25}></img></div> 
       <div className={styles.imgdiv}><img style={{"paddingTop":"42px"}} src={Profile26}></img></div> 
       <div className={styles.imgdiv}><img src={Profile27}></img></div> 
-      <div className={styles.imgdiv}><img style={{"paddingTop":"42px"}} src={Profile28}></img></div> 
+      <div className={styles.imgdiv}><img style={{"paddingTop":"21px"}} src={Profile28}></img></div> 
       {/* <div className={styles.imgdiv}><img src={Profile29}></img></div>  */}
       <div className={styles.imgdiv}><img style={{"paddingTop":"42px"}} src={Profile30}></img></div> 
       {/* <div className={styles.imgdiv}><img src={Profile31}></img></div>  */}

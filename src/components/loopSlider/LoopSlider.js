@@ -77,38 +77,38 @@ export default function LoopSlider() {
     >
       <div className={styles.imgdiv}><img src={Profile2}></img></div>
       <div className={styles.imgdiv}><img src={Profile3}></img></div>
-      <div className={styles.imgdiv}><img src={Profile4}></img></div>
+      <div className={styles.imgdiv}><img style={{"paddingTop":"42px"}} src={Profile4}></img></div>
       <div className={styles.imgdiv}><img src={Profile5}></img></div> 
       {/* <div className={styles.imgdiv}><img src={Profile6}></img></div>  */}
       <div className={styles.imgdiv}><img src={Profile7}></img></div>
       <div className={styles.imgdiv}><img src={Profile9}></img></div>
       <div className={styles.imgdiv}><img src={Profile10}></img></div>
       <div className={styles.imgdiv}><img src={Profile11}></img></div>
-      <div className={styles.imgdiv} ><img src={Profile12}></img></div> 
+      <div className={styles.imgdiv} ><img style={{"paddingTop":"42px"}} src={Profile12}></img></div> 
        <div className={styles.imgdiv}><img src={Profile13}></img></div> 
-       <div className={styles.imgdiv}><img src={Profile14}></img></div> 
+       <div className={styles.imgdiv}><img style={{"paddingTop":"42px"}} src={Profile14}></img></div> 
        <div className={styles.imgdiv}><img src={Profile15}></img></div> 
        <div className={styles.imgdiv} ><img src={Profile16}></img></div> 
-       <div className={styles.imgdiv}><img src={Profile17}></img></div>
+       <div className={styles.imgdiv}><img  style={{"paddingTop":"42px"}} src={Profile17}></img></div>
       <div className={styles.imgdiv}><img src={Profile18}></img></div>
        <div className={styles.imgdiv}><img src={Profile19}></img></div> 
-       <div className={styles.imgdiv}><img src={Profile20}></img></div> 
-       <div className={styles.imgdiv}><img src={Profile21}></img></div>
+       <div className={styles.imgdiv}>< img style={{"paddingTop":"42px"}} src={Profile20}></img></div> 
+       <div className={styles.imgdiv}><img style={{"paddingTop":"42px"}} src={Profile21}></img></div>
       <div className={styles.imgdiv}><img src={Profile22}></img></div>
       {/* <div className={styles.imgdiv}><img src={Profile23}></img></div>  */}
-      <div className={styles.imgdiv}><img src={Profile24}></img></div> 
+      <div className={styles.imgdiv}><img  style={{"paddingTop":"42px"}} src={Profile24}></img></div> 
       <div className={styles.imgdiv}><img src={Profile25}></img></div> 
-      <div className={styles.imgdiv}><img src={Profile26}></img></div> 
+      <div className={styles.imgdiv}><img style={{"paddingTop":"42px"}} src={Profile26}></img></div> 
       <div className={styles.imgdiv}><img src={Profile27}></img></div> 
-      <div className={styles.imgdiv}><img src={Profile28}></img></div> 
+      <div className={styles.imgdiv}><img style={{"paddingTop":"42px"}} src={Profile28}></img></div> 
       {/* <div className={styles.imgdiv}><img src={Profile29}></img></div>  */}
-      <div className={styles.imgdiv}><img src={Profile30}></img></div> 
+      <div className={styles.imgdiv}><img style={{"paddingTop":"42px"}} src={Profile30}></img></div> 
       {/* <div className={styles.imgdiv}><img src={Profile31}></img></div>  */}
-      <div className={styles.imgdiv}><img src={Profile32}></img></div> 
+      <div className={styles.imgdiv}><img style={{"paddingTop":"42px"}}src={Profile32}></img></div> 
       {/* <div className={styles.imgdiv}><img src={Profile33}></img></div>  */}
       <div className={styles.imgdiv}><img src={Profile34}></img></div> 
       <div className={styles.imgdiv}><img src={Profile35}></img></div> 
-      <div className={styles.imgdiv}><img src={Profile36}></img></div> 
+      <div className={styles.imgdiv}><img  style={{"paddingTop":"42px"}} src={Profile36}></img></div> 
       </Marquee>
       </div>
       );

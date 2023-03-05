@@ -2,13 +2,15 @@
 .maincontainer{
   text-align: center;
   text-justify: inter-word;
-    line-height: 27px;
     padding-bottom: 20px;
     /* width: 845px; */
     padding-left: 5%;
     padding-right: 5%;
-    font-size: 17px;
-    font-family: sans-serif;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #333;
+
 }
 .image{
   width:100%;

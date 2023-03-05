@@ -48,7 +48,7 @@ function HVAC() {
             <div >
            <a style={{width:"100%"}} href="/products/hvac/air-handling-units"> 
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
+              <p style={{ fontSize: "24px" ,paddingTop: "27px"}}>
               Air Handling Units
               </p>
               {/* <ReadMoreReact text={text}
@@ -71,7 +71,7 @@ function HVAC() {
           <div>
           <a style={{width:"100%"}} href="/products/hvac/chillers">
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
+              <p style={{ fontSize: "24px" ,paddingTop: "27px"}}>
               Chillers
               </p>
               {/* <ReadMoreReact text={text}
@@ -93,7 +93,7 @@ function HVAC() {
           <div>
 
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
+              <p style={{ fontSize: "24px" ,paddingTop: "27px"}}>
               Fan Coil Units 
               </p>
               {/* <ReadMoreReact text={text}
@@ -114,7 +114,7 @@ function HVAC() {
           <div>
             <a style={{width:"100%"}} href='/products/hvac/rooftoppackageunits'>
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
+              <p style={{ fontSize: "24px" ,paddingTop: "27px"}}>
               Roof Top Packege Units
               </p>
               {/* <ReadMoreReact text={text}
@@ -135,7 +135,7 @@ function HVAC() {
           <div>
           <a style={{width:"100%"}} href='/products/hvac/datacentercooling'>
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
+              <p style={{ fontSize: "24px" ,paddingTop: "27px"}}>
               Data Center Cooling
               </p>
               {/* <ReadMoreReact text={text}
@@ -155,7 +155,7 @@ function HVAC() {
           <div>
           <a style={{width:"100%"}} href="/products/hvac/vrfsystem">
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
+              <p style={{ fontSize: "24px" ,paddingTop: "27px"}}>
               VRF or VRV System
               </p>
               {/* <ReadMoreReact text={text}
@@ -176,7 +176,7 @@ function HVAC() {
           <div>
           <a style={{width:"100%"}} href="/products/hvac/industrialventilationfans">
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
+              <p style={{ fontSize: "24px" ,paddingTop: "27px"}}>
               Industrial Ventilation
               </p>
               {/* <ReadMoreReact text={text}
@@ -197,7 +197,7 @@ function HVAC() {
           <div>
             <a style={{width:"100%"}} href='/products/hvac/Fabricduct'>
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
+              <p style={{ fontSize: "24px" ,paddingTop: "27px"}}>
               Fabric Duct
               </p>
               {/* <ReadMoreReact text={text}
@@ -218,7 +218,7 @@ function HVAC() {
           <div>
 
             <p className={styles.textImageinnerone}>
-              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
+              <p style={{ fontSize: "24px" ,paddingTop: "27px"}}>
               Air Distribution Products
               </p>
               {/* <ReadMoreReact text={text}
@@ -238,7 +238,7 @@ function HVAC() {
           <div>
 
             <p className={styles.textImageinnerone}>
-              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
+              <p style={{ fontSize: "24px" ,paddingTop: "27px"}}>
               Fire Safety Products
               </p>
               {/* <ReadMoreReact text={text}

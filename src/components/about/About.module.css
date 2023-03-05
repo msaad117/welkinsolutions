@@ -20,12 +20,14 @@ margin-bottom: 50px;
     background-color: #164057; /* Green */
     border: none;
     color: white;
-    padding: 35px 80px;
+    padding: 25px 80px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 28px;
     display: flex;
+    height: 80px;
+    width: 400px;
   }
 
   .button:hover {

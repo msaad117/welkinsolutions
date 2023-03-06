@@ -30,38 +30,46 @@ padding-top:15px ;
 .Cards{
 
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
   text-align: center;
   align-items: center;
 justify-content: center;
+padding-bottom: 50px;
+padding-top: 50px;
+/* background-color: aqua; */
 
 }
 
 .imageDiv{
-  height: 590px;
-  text-align: center;
-    padding-left: 20px;
-    position: relative;
-    margin-bottom: 20px;
+  height: 450px;
+  object-fit: cover;
+    /* padding-left: 20px; */
+    /* position: relative; */
+    /* margin-bottom: 20px; */
 }
 
 .textImageinner {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  margin-left: 50px;
   /* min-height: 130px;
   max-height: 350px; */
-  width:262px;
-  background-color:#164057;
-  position:relative;
+  height: 300px;
+  width:500px;
+  
+  background-color:white;
+  /* position:relative; */
 /* left: 2px; */
   /* top:30%; */
   /* left: 175px; */
   /* right: 50%; */
   /* transform: translate(-50%, -50%); */
-  font-size: 15px;
-  opacity: 0.7;
-  color: white;
+  font-size: 20px;
+ 
+  color: #164057;
   font-weight: 400;
-  top: -20px;
-  padding-bottom: 10px;
+  /* top: -20px; */
+  /* padding-bottom: 10px; */
   font-family: Poppines;
   text-align: center;
   font-weight: 900;
@@ -71,9 +79,27 @@ justify-content: center;
   .border{
     height: 130px;
 }
- 
+.Cards{
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+justify-content: center;
+padding-bottom: 50px;
+padding-top: 50px;
+/* background-color: aqua; */
+
+}
   }
 @media (max-width: 800px) {
+  .imageDiv{
+    height: 360px;
+    object-fit: cover;
+      /* padding-left: 20px; */
+      /* position: relative; */
+      /* margin-bottom: 20px; */
+  }
   .mainStyle{
       height: 60px;
       margin-left: 2%;
@@ -89,6 +115,41 @@ justify-content: center;
   .borderpadding{
    padding-top: 2px;
 }
+
+.textImageinner {
+  margin-top: 50px;
+  margin-left: 0px;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  padding-left: 15px;
+  padding-right: 5px;
+  /* min-height: 130px;
+  max-height: 350px; */
+  height: 260px;
+  width:90%;
   
+  background-color:white;
+  /* position:relative; */
+/* left: 2px; */
+  /* top:30%; */
+  /* left: 175px; */
+  /* right: 50%; */
+  /* transform: translate(-50%, -50%); */
+  font-size: 16px;
+ 
+  color: #164057;
+  font-weight: 200;
+  /* top: -20px; */
+  /* padding-bottom: 10px; */
+  font-family: Poppines;
+  
+  font-weight: 900;
+}
+.Cards{
+
+padding-top: 2px;
+/* background-color: aqua; */
+
+}
 }
 

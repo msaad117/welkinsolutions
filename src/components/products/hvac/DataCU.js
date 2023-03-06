@@ -24,35 +24,25 @@ equipment cooling solutions, spot cooling solutions" />
             </Helmet>
             <div className={styles.mainStyle}>
                 <div style={{ backgroundColor: "#164057", "height": "50px" }}>
-                    <h2 style={{ textAlign: "center", "paddingTop": "6px", "color": "white" }}>Data Center Cooling Systems </h2>
+                    <h2 style={{ textAlign: "center", "paddingTop": "6px", "color": "white" }}>Fabric Air Duct</h2>
                 </div>
+             
             </div>
             <div className={styles.Cards}>
-                <div className={styles.imageDiv}>
-                    <ImageCard
-                        imageUrl={image1}
-                        imageAlt={"cleanroom image"}
+                <div >
+                    <img className={styles.imageDiv}
+                        src={image1}
+                        alt={"cleanroom image"}
                     />
                     <div>
-
-                        <p className={styles.textImageinner}>
-                            <p style={{ fontSize: "24px" ,fontWeight:"900",paddingTop: "5px"}}>
-                            Data Center Cooling Systems
-                            </p>
-                            <ReactReadMoreReadLess
-                                charLimit={100}
-                                readMoreText={"Read more ▼"}
-                                readLessText={"Read less ▲"}
-                                readMoreStyle={{ fontWeight: "2500", color: "black" }}
-                                readLessStyle={{ fontWeight: "2500", color: "black" }}
-                            >
-                                {text1}
-                            </ReactReadMoreReadLess>
-
-                        </p>
                     </div>
                 </div>
-           
+                <div>
+                    <p  className={styles.textImageinner}>
+                            
+                            {text1}
+                        </p>
+                    </div>
             </div>
         </div>
 

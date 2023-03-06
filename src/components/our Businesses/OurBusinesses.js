@@ -10,15 +10,19 @@ export default function OurBusinesses() {
         <div className={styles.MainContainer}><h2 > Our Businesses</h2>
         <div className={styles.Cards}>
         <div className={styles.imageDiv}>
+        <a style={{width:"100%"}} href="/Products/hvacproducts">
         <Image 
         Url={certificate1}
         
       />
+       
       <p className={styles.textImage}>
       Central Air-Conditioning 
       </p>
+      </a>
       </div>
       <div className={styles.imageDiv}>
+      <a style={{width:"100%"}} href="/products/hvac/industrialventilationfans">
       <Image 
         Url={certificate2}
         
@@ -26,15 +30,18 @@ export default function OurBusinesses() {
        <p className={styles.textImage}>
        Industrial Ventilation 
       </p>
+      </a>
       </div>
       <div className={styles.imageDiv}>
+      <a style={{width:"100%"}} href="/products/cleanroomsolutions">
       <Image 
         Url={certificate3}
 
       />
         <p className={styles.textImage}>
-        Clean Room
+        CleanRoom Solutions
       </p>
+      </a>
       </div>
       </div>
         </div>

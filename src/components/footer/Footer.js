@@ -31,10 +31,10 @@ export default function Footer() {
                 <div className={styles.AddressContainer}>
                 <div className={styles.InnerAddressContainer }>
                     <h2>Karachi Office </h2>
-                    <a style={{"textDecoration":"underline"}} href="https://goo.gl/maps/zYSz4c8B76BwLGwY7">
-                    Shahr e Faisal, Karachi
+                    <a style={{"textDecoration":"underline"}} href="https://goo.gl/maps/Dt8NL8bnCfwDh6ZKA">
+                    1H, PECHS Block 6, Shahrah-e-Faisal, Karachi
                     </a>
-                    <span>Cell:&nbsp;<a style={{"fontFamily":"Raleway,sansSerif"}} href="tel:+92 310 4499254">+92 310 4499254</a></span>
+                    <span>Cell:&nbsp;<a style={{"fontFamily":"Raleway,sansSerif"}} href="tel:+92 324 9881338">+92 324 9881338</a></span>
                     <span>Email:&nbsp;<a href="mailto:info@welkin.com.pk">info@welkin.com.pk</a></span>
                 </div>
                 <div>

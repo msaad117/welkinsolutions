@@ -51,7 +51,7 @@ function AirHandlingUnits() {
           <div>
 
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
+              <p style={{ fontSize: "24px" ,paddingTop: "27px"}}>
               Modular Air handling Units
               </p>
               {/* <ReadMoreReact text={text}
@@ -71,7 +71,7 @@ function AirHandlingUnits() {
           <div>
 
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
+              <p style={{ fontSize: "24px" ,paddingTop: "27px"}}>
               Hygiene Air Handling Units
               </p>
               {/* <ReadMoreReact text={text}
@@ -91,7 +91,7 @@ function AirHandlingUnits() {
           <div>
 
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
+              <p style={{ fontSize: "24px" ,paddingTop: "27px"}}>
               Compact Air Handling Units
               </p>
               {/* <ReadMoreReact text={text}
@@ -110,7 +110,7 @@ function AirHandlingUnits() {
           <div>
 
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
+              <p style={{ fontSize: "24px" ,paddingTop: "27px"}}>
               Ceiling Suspended AHUs
               </p>
               {/* <ReadMoreReact text={text}
@@ -129,7 +129,7 @@ function AirHandlingUnits() {
           <div>
 
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
+              <p style={{ fontSize: "24px" ,paddingTop: "27px"}}>
               Horizontal AHUs
               </p>
               {/* <ReadMoreReact text={text}
@@ -148,7 +148,7 @@ function AirHandlingUnits() {
           <div>
 
             <p className={styles.textImageinner}>
-              <p style={{ fontSize: "24px" ,paddingTop: "5px"}}>
+              <p style={{ fontSize: "24px" ,paddingTop: "27px"}}>
               Vertical AHUs
               </p>
               {/* <ReadMoreReact text={text}

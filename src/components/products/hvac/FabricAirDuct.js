@@ -28,31 +28,20 @@ Faisalabad" />
              
             </div>
             <div className={styles.Cards}>
-                <div className={styles.imageDiv}>
-                    <ImageCard
-                        imageUrl={image1}
-                        imageAlt={"cleanroom image"}
+                <div >
+                    <img className={styles.imageDiv}
+                        src={image1}
+                        alt={"cleanroom image"}
                     />
                     <div>
-
-                        <p className={styles.textImageinner}>
-                            <p style={{ fontSize: "24px" ,fontWeight:"900",paddingTop: "5px"}}>
-                            Fabric Air Duct
-                            </p>
-                            <ReactReadMoreReadLess
-                                charLimit={100}
-                                readMoreText={"Read more ▼"}
-                                readLessText={"Read less ▲"}
-                                readMoreStyle={{ fontWeight: "2500", color: "black" }}
-                                readLessStyle={{ fontWeight: "2500", color: "black" }}
-                            >
-                                {text1}
-                            </ReactReadMoreReadLess>
-
-                        </p>
                     </div>
                 </div>
-           
+                <div>
+                    <p  className={styles.textImageinner}>
+                            
+                            {text1}
+                        </p>
+                    </div>
             </div>
         </div>
 

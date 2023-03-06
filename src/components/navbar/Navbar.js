@@ -28,7 +28,9 @@ function Navbar() {
 
         <div className={styles.MainContainer} >
             <div className={styles.logoContainer}>
+                <a href='/'>
                 <img className={styles.logoImage} src={companyLogo} alt="company logo" />
+                </a>
             </div>
             <div style={{ paddingRight: "30px" }}>
                 <button

@@ -5,6 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import {BrowserRouter} from "react-router-dom"
+const disableRightClick = (e) => {
+  e.preventDefault();
+};
+
+document.addEventListener('contextmenu', disableRightClick);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
